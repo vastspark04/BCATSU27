@@ -5,4 +5,6 @@ CustomAircraftTemplatev2.0 <br />
 https://github.com/Sibov/CustomAircraftTemplatev2.0.git <br />
 <br />
 3D Model <br />
-https://grabcad.com/library/kf-21-boramae-jet-fighter-1
+"Su-27" (https://skfb.ly/oQxqp) by dannzjs is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/). <br />
+
+"Missile & Bomb Collection - Fighter Jets - Free" (https://skfb.ly/oJECB) by bohmerang is licensed under CC Attribution-NonCommercial-ShareAlike (http://creativecommons.org/licenses/by-nc-sa/4.0/).
