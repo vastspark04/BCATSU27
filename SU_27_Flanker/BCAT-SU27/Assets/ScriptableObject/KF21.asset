@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a5f724ee95b6d4bac281dd9a3c1a84, type: 3}
+  m_Name: KF21
+  m_EditorClassIdentifier: 
+  vehicleName: KAI KF21
+  resourcePath: Vehicles/KF21
+  readyToFly: 1
+  description: The KAI KF-21 Boramae (formerly known as KF-X) is a South Korean-led
+    fighter aircraft development program with the goal of producing an advanced multirole
+    fighter for the South Korean and Indonesian air forces. The airframe is stealthier
+    than any fourth-generation fighter, but does not carry weapons in internal bays
+    like fifth-generation fighters, though internal bays may be introduced later
+    in development.
+  nickname: Boramae
+  vehicleImage: {fileID: 2800000, guid: 7f0524745711a3e4d84f6751564c753c, type: 3}
+  vehiclePrefab: {fileID: 7945973355896111710, guid: b7d83c4fd181b144e9918af879d38b90, type: 3}
+  loadoutSpawnOffset: {x: 0, y: 2.65, z: -7.02}
+  playerSpawnOffset: {x: 0, y: 2.66, z: 0}
+  spawnPitch: 0
+  loadoutConfiguratorPrefab: {fileID: 1523651223817002, guid: 62e499d5071e35b43b6ac78ae340b870, type: 3}
+  uiOnlyConfiguratorPrefab: {fileID: 5452194177057080605, guid: d5521f25f715f344a830f7894a30ed97, type: 3}
+  hardpointCount: 12
+  maxSlots: 1
+  defaultSlots: 1
+  dlc: 0
+  dlcID: 0
+  dlcPrefabName: 
+  allEquipPrefabs:
+  - {fileID: 1787991336573433, guid: 5b207f96ec9ed32439f089126e2f0376, type: 3}
+  - {fileID: 1309419853778920, guid: f1ad9c7b75d574641b1f5203adec5f87, type: 3}
+  - {fileID: 7912741173006672426, guid: c53161a81b0e65b4694379ccbb7d5dd4, type: 3}
+  - {fileID: 1092646804117233, guid: e65c96963bc0b2443b39df99a6d34865, type: 3}
+  - {fileID: 1744173126882458, guid: 9d23f2bf604a6cd48af498782e43aa57, type: 3}
+  - {fileID: 1065257867982988, guid: b9504ac1ddb8cfc4285e262ad727bbf4, type: 3}
+  - {fileID: 1754844357641419, guid: 3c009fb2fc1f3d8429c7bc393974084a, type: 3}
+  - {fileID: 1499249039372290, guid: 45cf7a3bababb3445930ce16e456f28b, type: 3}
+  - {fileID: 1937548658101806, guid: 8fa7cc447b445df46a7eebe488859878, type: 3}
+  - {fileID: 1420412109406772, guid: d82d44b410d493641b2c4d4318e0ca7e, type: 3}
+  - {fileID: 1080638938887228, guid: ab0f1282c1c44e048aca195860e89396, type: 3}
+  - {fileID: 1197431003935914, guid: 8258601ddee975541996557cf45f9f84, type: 3}
+  - {fileID: 1914602522786586, guid: ff791c596caa3b047a72fdb23603acff, type: 3}
+  - {fileID: 1385043687213193, guid: 5a688067ab6e21a4dab7640cdb6fe92d, type: 3}
+  - {fileID: 1308613260679936, guid: e73d0dbbeb62da446b0bf7da795f55bc, type: 3}
+  - {fileID: 1047843472856278, guid: d9af3d5503c86e04bbdfa37f175a9556, type: 3}
+  - {fileID: 1086147716487742, guid: 39b2451e2f9cfa34da62bba47cbe4d7c, type: 3}
+  - {fileID: 1049353534626602, guid: 8b6acda45e69afe4d921f44a8b251702, type: 3}
+  - {fileID: 1443461133985303, guid: 4d06e50ee77eac248bdb3897e38ad90a, type: 3}
+  - {fileID: 1698636330184034, guid: 241cc7f5356da314d8f5a7d6c9e6c6aa, type: 3}
+  - {fileID: 1030240687333475, guid: ca9a23ac25a59b84e9c36e08f8f0933a, type: 3}
+  - {fileID: 1136373245740158, guid: eddf606f3d40a4548bb87473ad66e9b8, type: 3}
+  - {fileID: 1931828952928969, guid: f721d0cbce171364ab8d7061174b3825, type: 3}
+  - {fileID: 1103962604619039, guid: 39f7e7a29eb6b8a469d22b6a7a5bad52, type: 3}
+  - {fileID: 1628650025412031, guid: aaae7088fb57bd143977e7f25584ce75, type: 3}
+  - {fileID: 1635243908403360, guid: 00407c1e80a1f4b49bf1b44316d4b6e8, type: 3}
+  - {fileID: 1719347516539316, guid: 28439ffe6a1577b46b60bfff2f78205f, type: 3}
+  - {fileID: 1000870896244739, guid: aea61e5ca72ce5e4aa68ec08a5514ec3, type: 3}
+  - {fileID: 1000870896244739, guid: 74169a7515118b347b56119959a570a9, type: 3}
+  - {fileID: 1766356233206869, guid: 9c0025d5e3fe16241861f5b41ed6681d, type: 3}
+  - {fileID: 1851938698709317, guid: 92044595f86a5fe4f93159db987d291a, type: 3}
+  - {fileID: 1312293294673102, guid: eedf92211dfaa294399e192662d89161, type: 3}
+  - {fileID: 1736166785724625, guid: aef203537a126ed448b7deecd5829841, type: 3}
+  - {fileID: 1040064831701940, guid: 9d376a0d0305fed4496b5919b27b55db, type: 3}
+  - {fileID: 1172850694100183, guid: b3b0c8b716ed726479421b5b5ef7e21c, type: 3}
+  - {fileID: 1851938698709317, guid: a31342c92c1781f4d9d2050c2f9a6dae, type: 3}
+  - {fileID: 1609471672691783, guid: 489d3060d79078d4d97d82c3706a1b2c, type: 3}
+  - {fileID: 1529144101003075, guid: 40d2ad3e0ed1a164da867556d42dd0ca, type: 3}
+  - {fileID: 1717010563709773, guid: 5ed001eb1fce8f844b1cdd290af81b03, type: 3}
+  - {fileID: 1194274915337925, guid: 3edce6e1fe73ba4448eb9932b19850ef, type: 3}
+  - {fileID: 1498488790389481, guid: 0753e9af8b1fb394baf4671faef5193e, type: 3}
+  - {fileID: 1541498883741121, guid: 926cf810ba9b68944ac574f59a0f83ed, type: 3}
+  - {fileID: 1044794688173977, guid: 91730e54a8a9a4f4597078dd9ad42a7f, type: 3}
+  - {fileID: 1872547106277201, guid: 776d3e80bfc5bf043b60f5c6b97e7be6, type: 3}
+  - {fileID: 1065257867982988, guid: e0dadb18520dd204d8a9bc94a5f50c9d, type: 3}
+  - {fileID: 1754844357641419, guid: 73179c5ca3b2e7c46b4bab15449de48f, type: 3}
+  campaigns:
+  - {fileID: 11400000, guid: eb0db5280793f7d46befdc518740c99c, type: 2}
+  - {fileID: 11400000, guid: bbb8aee744dfe2a4190ed16b8c0234f0, type: 2}
+  equipsResourcePath: HPEquips/Kf21
+  quicksaveReady: 1

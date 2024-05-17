@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1309419853778920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4147156611252306}
+  - component: {fileID: 114937417147863374}
+  - component: {fileID: 114188308067426253}
+  - component: {fileID: 114361770662099737}
+  - component: {fileID: 82570761045787138}
+  - component: {fileID: 114792451701968858}
+  - component: {fileID: 114306619241855387}
+  m_Layer: 8
+  m_Name: agm161
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4147156611252306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_LocalRotation: {x: 0, y: 0, z: 0.013089582, w: 0.99991435}
+  m_LocalPosition: {x: -94.272484, y: 491.9588, z: 32.91011}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4699597157902156}
+  - {fileID: 4009323120564609}
+  - {fileID: 4499337923310167}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.5}
+--- !u!114 &114937417147863374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64017e2bad6d5cc4eb8f8c490bc45abc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fullName: AGM-161 Anti Surface Stand-off Missile
+  shortName: AGM-161
+  localize: 1
+  unitCost: 500
+  description: A cruise missile designed to deliver a large payload to a ground target
+    over a long distance.  It follows a pre-programmed GPS course with automatic
+    terrain avoidance.
+  subLabel: GPS CRUISE
+  jettisonable: 1
+  armable: 1
+  jettisonOnHPDied: 0
+  reticleIndex: 2
+  allowedHardpoints: 1,2,9,10,11
+  baseRadarCrossSection: 0.25
+  matchLiveries: []
+  wasPurchased: 0
+  rcsMasked: 0
+  hardpointIdx: 0
+  missileResourcePath: Weapons/Missiles/AGM-161
+  perMissileCost: 9500
+  ml: {fileID: 114188308067426253}
+  shakeMagnitude: -1
+  tgtAcquireFOV: 10
+--- !u!114 &114188308067426253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea8f5b5cba6f8d468cab09c944e0814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hardpoints:
+  - {fileID: 4699597157902156}
+  overrideDecoupleDirections: []
+  missilePrefab: {fileID: 1777790962295857, guid: fafc497abe9b5f84795bd6898e04dedf, type: 3}
+  baseMass: 0.08
+  loadOnStart: 1
+  useEdgeTf: 1
+  hideUntilLaunch: 0
+  launchAudioSources:
+  - {fileID: 82570761045787138}
+  launchAudioClips:
+  - {fileID: 8300000, guid: 91eab9ea128210342a4e5454463c5b38, type: 3}
+  missiles: []
+  overrideDecoupleSpeed: -1
+  overrideDropTime: 1
+  debugMissiles: 0
+  parentActor: {fileID: 0}
+  openAndCloseBayOnLaunch: 1
+--- !u!114 &114361770662099737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b917770a6a3c4ca40a5429901db18a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  area: 0.008
+  offsetFromCoM: {x: 0, y: -0.01, z: 0.02}
+  rb: {fileID: 0}
+--- !u!82 &82570761045787138
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 27300000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 91eab9ea128210342a4e5454463c5b38, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 5
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114792451701968858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f97e139cc7297ea4090a6224f65d0c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  netSyncs:
+  - {fileID: 114306619241855387}
+  isMine: 0
+  isSceneEntity: 0
+--- !u!114 &114306619241855387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309419853778920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111a01cbc4ecea04fa7aeb75ce042acf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mlEq: {fileID: 114937417147863374}
+  samLauncher: {fileID: 0}
+  irSamLauncher: {fileID: 0}
+  manpadSoldier: {fileID: 0}
+  manpadMissileResourcePath: 
+--- !u!1 &1422629594401587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4699597157902156}
+  m_Layer: 0
+  m_Name: hpTf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4699597157902156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422629594401587}
+  m_LocalRotation: {x: -0.00000001782563, y: -0.00000022330318, z: -0.00000004749744, w: 1}
+  m_LocalPosition: {x: 0.008, y: -0.002, z: -0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4147156611252306}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.0000020426655, y: 0.000025588659, z: 0.000005442805}
+--- !u!1 &1480428680208440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4009323120564609}
+  - component: {fileID: 33153952218374937}
+  - component: {fileID: 23338768663104810}
+  m_Layer: 8
+  m_Name: launcher
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4009323120564609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480428680208440}
+  m_LocalRotation: {x: -0.00000005587934, y: -0.7071067, z: -0.7071068, w: -0.00000011641529}
+  m_LocalPosition: {x: 0, y: 0.0009997938, z: -0.16899952}
+  m_LocalScale: {x: 0.7213577, y: 2.1626027, z: 2.4404354}
+  m_Children: []
+  m_Father: {fileID: 4147156611252306}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 89.999985, y: -0.0000049051346, z: -179.99998}
+--- !u!33 &33153952218374937
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480428680208440}
+  m_Mesh: {fileID: 4300000, guid: 25457df9750d8304da043bb78a5c0f5c, type: 2}
+--- !u!23 &23338768663104810
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480428680208440}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 14a0d7006010ebd42bebeb0d6235e207, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1838923149500269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4499337923310167}
+  - component: {fileID: 65125819356452690}
+  m_Layer: 9
+  m_Name: jettisonCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4499337923310167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838923149500269}
+  m_LocalRotation: {x: 0.00000008940697, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.145, z: 0.093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4147156611252306}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0.000010245284, y: -0, z: 0}
+--- !u!65 &65125819356452690
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838923149500269}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.31570354, z: 2.458051}
+  m_Center: {x: 0.000000024653376, y: -0.0134635465, z: -0.048184104}

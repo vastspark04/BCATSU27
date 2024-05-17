@@ -1,0 +1,1122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f32a0c6fa81ac149b6bffe0324f66c0, type: 3}
+  m_Name: fa26bFreeFlight
+  m_EditorClassIdentifier: 
+  campaignID: fa26bFreeFlight
+  hideFromMenu: 0
+  campaignConfig: 'CAMPAIGN
+
+    {
+
+    campaignID = fa26bFreeFlight
+
+    campaignName
+    = Quick Flight
+
+    description = Simple scenarios for the F/A-26B.
+
+    vehicle
+    = F/A-26B
+
+    startingEquips = fa26_droptank;fa26_droptankXL;fa26-cft;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;fa26_harmx1;fa26_harmx1dpMount;fa26_sidearmx1;fa26_sidearmx2;fa26_sidearmx3;af_amraamRailx2;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;fa26_aim9e;fa26_aim9ex2;fa26_aim7;fa26_aim7Rail;
+
+    availability
+    = All_Available
+
+    multiplayer = False
+
+    }
+
+'
+  image: {fileID: 2800000, guid: 03b63af217fc5884598444ff8594cf34, type: 3}
+  scenarios:
+  - scenarioID: 26b_targetPractice2
+    scenarioConfig: "CustomScenario\n{\ngameVersion = 1.4.4p4\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 2\nscenarioName = Target Practice\nscenarioID = 26b_targetPractice2\nscenarioDescription
+      = Several ground and air targets to practice deploying your weapons on. Targets
+      will not shoot back.\nmapID = e_coastBay\nvehicle = F/A-26B\nmultiplayer =
+      False\nallowedEquips = fa26_droptank;fa26_droptankXL;fa26-cft;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;fa26_harmx1;fa26_harmx1dpMount;fa26_sidearmx1;fa26_sidearmx2;fa26_sidearmx3;af_amraamRailx2;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;fa26_aim9e;fa26_aim9ex2;fa26_aim7;fa26_aim7Rail;\nforcedEquips
+      = ;;;;;;;;;;;;;;;;\nforceEquips = False\nnormForcedFuel = 1\nequipsConfigurable
+      = True\nbaseBudget = 200000\nisTraining = False\nrtbWptID = wpt:3\nrefuelWptID
+      = unit:27\nenvName = day\nselectableEnv = True\nqsMode = Anywhere\nqsLimit
+      = -1\nUNITS\n{\nUnitSpawner\n{\nunitName = Player\nglobalPosition = (75607.869384765625,
+      3495, 45038.6962890625)\nunitInstanceID = 0\nunitID = PlayerSpawn\nrotation
+      = (0, 354.7737, 0)\nspawnChance = 100\nlastValidPlacement = (75607.869384765625,
+      3495, 45038.6962890625)\neditorPlacementMode = Unknown\nspawnFlags = \nUnitFields\n{\nstartMode
+      = FlightReady\ninitialSpeed = 280\nunitGroup = null\n}\n}\nUnitSpawner\n{\nunitName
+      = MPA-155\nglobalPosition = (74548.625442504883, 81.611221313476563, 67867.692413330078)\nunitInstanceID
+      = 1\nunitID = Artillery\nrotation = (9.313074E-06, 192.7808, 9.116317E-06)\nspawnChance
+      = 100\nlastValidPlacement = (74548.625442504883, 81.611221313476563, 67867.692413330078)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = null\nmoveSpeed = Slow_10\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = MPA-155\nglobalPosition = (74527.490386962891, 81.389968872070313, 67898.356437683105)\nunitInstanceID
+      = 2\nunitID = Artillery\nrotation = (9.313074E-06, 192.7808, 9.116317E-06)\nspawnChance
+      = 100\nlastValidPlacement = (74527.490386962891, 81.389968872070313, 67898.356437683105)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = null\nmoveSpeed = Slow_10\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = MPA-155\nglobalPosition = (74557.728721618652, 79.190383911132813, 67923.72688293457)\nunitInstanceID
+      = 3\nunitID = Artillery\nrotation = (1.294098E-05, 141.6061, -1.540002E-06)\nspawnChance
+      = 100\nlastValidPlacement = (74557.728721618652, 79.190383911132813, 67923.72688293457)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = null\nmoveSpeed = Slow_10\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = MPA-155\nglobalPosition = (74588.393646240234, 79.290390014648438, 67948.638076782227)\nunitInstanceID
+      = 4\nunitID = Artillery\nrotation = (1.294098E-05, 141.6061, -1.540002E-06)\nspawnChance
+      = 100\nlastValidPlacement = (74588.393646240234, 79.290390014648438, 67948.638076782227)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = null\nmoveSpeed = Slow_10\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = MBT2-E Tank\nglobalPosition = (59745.164783477783, 161.55429077148438, 58051.191101074219)\nunitInstanceID
+      = 5\nunitID = enemyMBT1\nrotation = (3.012568, 191.6903, 359.4064)\nspawnChance
+      = 100\nlastValidPlacement = (59745.164783477783, 161.55429077148438, 58051.191101074219)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Alpha\nmoveSpeed
+      = Slow_10\nbehavior = Parked\ndefaultPath = null\nwaypoint = null\nstopToEngage
+      = True\nengageEnemies = False\ndetectionMode = Default\nspawnOnStart = True\ninvincible
+      = False\n}\n}\nUnitSpawner\n{\nunitName = MAD-4 Launcher\nglobalPosition =
+      (59758.07568359375, 162.90966796875, 58083.5009765625)\nunitInstanceID = 6\nunitID
+      = MAD-4Launcher\nrotation = (5.583079, 191.6084, 358.8372)\nspawnChance = 100\nlastValidPlacement
+      = (59758.07568359375, 162.90966796875, 58083.5009765625)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nradarUnits = \nallowReload = False\nreloadTime
+      = 120\nunitGroup = Enemy:Alpha\nmoveSpeed = Slow_10\nbehavior = Parked\ndefaultPath
+      = null\nwaypoint = null\nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = MAD-4 Launcher\nglobalPosition
+      = (59758.07080078125, 166.86376953125, 58122.96142578125)\nunitInstanceID =
+      7\nunitID = MAD-4Launcher\nrotation = (5.538675, 191.7361, 0.1512614)\nspawnChance
+      = 100\nlastValidPlacement = (59758.07080078125, 166.86376953125, 58122.96142578125)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nradarUnits = \nallowReload = False\nreloadTime
+      = 120\nunitGroup = Enemy:Alpha\nmoveSpeed = Slow_10\nbehavior = Parked\ndefaultPath
+      = null\nwaypoint = null\nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = MAD-4 Radar\nglobalPosition
+      = (59765.706176757813, 168.75, 58141.3720703125)\nunitInstanceID = 8\nunitID
+      = MAD-4Radar\nrotation = (5.515333, 191.7334, 0.1233989)\nspawnChance = 100\nlastValidPlacement
+      = (59765.706176757813, 168.75, 58141.3720703125)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Enemy:Alpha\nmoveSpeed = Slow_10\nbehavior =
+      Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = IRAPC\nglobalPosition = (59768.353637695313, 170.323486328125, 58157.375732421875)\nunitInstanceID
+      = 9\nunitID = IRAPC\nrotation = (5.594619, 191.7298, 0.08515416)\nspawnChance
+      = 100\nlastValidPlacement = (59768.353637695313, 170.323486328125, 58157.375732421875)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Alpha\nmoveSpeed
+      = Slow_10\nbehavior = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies
+      = False\ndetectionMode = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-30\nglobalPosition = (82435.704345703125, 1635.00341796875, 68493.27490234375)\nunitInstanceID
+      = 10\nunitID = ASF-30\nrotation = (0, 325.0267, 0)\nspawnChance = 100\nlastValidPlacement
+      = (82435.704345703125, 1635.00341796875, 68493.27490234375)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Orbit\ninitialSpeed = 220\ndefaultNavSpeed = 220\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\nequips = asf30_gun;;;asf_mrmRail;asf30_droptank;asf_mrmDrop;asf_mrmDrop;asf30_droptank;asf_mrmRail;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-30\nglobalPosition = (82549.782836914063, 1635.0032958984375, 68494.670715332031)\nunitInstanceID
+      = 11\nunitID = ASF-30\nrotation = (0, 325.0267, 0)\nspawnChance = 100\nlastValidPlacement
+      = (82549.782836914063, 1635.0032958984375, 68494.670715332031)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Orbit\ninitialSpeed = 220\ndefaultNavSpeed = 220\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\nequips = asf30_gun;;;asf_mrmRail;asf30_droptank;asf_mrmDrop;asf_mrmDrop;asf30_droptank;asf_mrmRail;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-30\nglobalPosition = (82541.223266601563, 1635.0032958984375, 68340.654418945313)\nunitInstanceID
+      = 12\nunitID = ASF-30\nrotation = (0, 325.0267, 0)\nspawnChance = 100\nlastValidPlacement
+      = (82541.223266601563, 1635.0032958984375, 68340.654418945313)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Orbit\ninitialSpeed = 220\ndefaultNavSpeed = 220\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\nequips = asf30_gun;;;asf_mrmRail;asf30_droptank;asf_mrmDrop;asf_mrmDrop;asf30_droptank;asf_mrmRail;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-30\nglobalPosition = (82474.555725097656, 1635.0032958984375, 68174.8173828125)\nunitInstanceID
+      = 13\nunitID = ASF-30\nrotation = (0, 325.0267, 0)\nspawnChance = 100\nlastValidPlacement
+      = (82474.555725097656, 1635.0032958984375, 68174.8173828125)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Orbit\ninitialSpeed = 220\ndefaultNavSpeed = 220\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\nequips = asf30_gun;;;asf_mrmRail;asf30_droptank;asf_mrmDrop;asf_mrmDrop;asf30_droptank;asf_mrmRail;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = HB-106 Bomber\nglobalPosition = (69794.583984375, 7077.8349609375, 72703.267578125)\nunitInstanceID
+      = 14\nunitID = EBomberAI\nrotation = (0, 31.12533, 0)\nspawnChance = 100\nlastValidPlacement
+      = (69794.583984375, 7077.8349609375, 72703.267578125)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Hotel\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultNavSpeed = 300\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\nrtbDestination
+      = \nengageEnemies = False\ndetectionMode = Force_Detected\nspawnOnStart = True\ninvincible
+      = False\n}\n}\nUnitSpawner\n{\nunitName = ASF-58\nglobalPosition = (69689.51611328125,
+      7077.8349609375, 72477.05859375)\nunitInstanceID = 15\nunitID = ASF-58\nrotation
+      = (0, 31.12533, 0)\nspawnChance = 100\nlastValidPlacement = (69689.51611328125,
+      7077.8349609375, 72477.05859375)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Enemy:Hotel\ndefaultBehavior = Orbit\ninitialSpeed
+      = 300\ndefaultNavSpeed = 300\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude
+      = 8000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Force_Detected\nspawnOnStart
+      = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = ASF-58\nglobalPosition
+      = (69585.38500213623, 7077.8349609375, 72584.219696044922)\nunitInstanceID
+      = 16\nunitID = ASF-58\nrotation = (0, 31.12533, 0)\nspawnChance = 100\nlastValidPlacement
+      = (69585.38500213623, 7077.8349609375, 72584.219696044922)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Hotel\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultNavSpeed = 300\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 8000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Force_Detected\nspawnOnStart
+      = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = SAM S/A Radar\nglobalPosition
+      = (53673.194488525391, 2074.1261234283447, 87793.194641113281)\nunitInstanceID
+      = 17\nunitID = SamFCR2\nrotation = (-6.5401E-06, 21.80863, 1.980948E-06)\nspawnChance
+      = 100\nlastValidPlacement = (53673.194488525391, 2074.1261234283447, 87793.194641113281)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = SAM S/A Radar\nglobalPosition = (52250.162902832031, 2080.6705570220947,
+      85062.883972167969)\nunitInstanceID = 18\nunitID = SamFCR2\nrotation = (-4.84582E-06,
+      5.065976, 4.275444E-07)\nspawnChance = 100\nlastValidPlacement = (52250.162902832031,
+      2080.6705570220947, 85062.883972167969)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = SAM S/A Radar\nglobalPosition
+      = (79283.097595214844, 1541.4337387084961, 86811.559020996094)\nunitInstanceID
+      = 19\nunitID = SamFCR2\nrotation = (-1.385353E-06, 5.065976, 5.200313E-07)\nspawnChance
+      = 100\nlastValidPlacement = (79283.097595214844, 1541.4337387084961, 86811.559020996094)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = SAM S/A Radar\nglobalPosition = (74043.054523468018, 706.92373657226563,
+      98415.633712768555)\nunitInstanceID = 20\nunitID = SamFCR2\nrotation = (4.859322E-07,
+      276.4699, 1.397678E-06)\nspawnChance = 100\nlastValidPlacement = (74043.054523468018,
+      706.92373657226563, 98415.633712768555)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = GAV-25 Bullshark\nglobalPosition
+      = (73948.383201599121, 709.18890380859375, 98516.699203491211)\nunitInstanceID
+      = 21\nunitID = GAV-25\nrotation = (-7.975003E-06, 185.6563, 1.122145E-05)\nspawnChance
+      = 100\nlastValidPlacement = (73948.383201599121, 709.18890380859375, 98516.699203491211)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Papa\ndefaultBehavior
+      = Orbit\ninitialSpeed = 180\ndefaultNavSpeed = 180\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\nrtbDestination
+      = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart = True\ninvincible
+      = False\nequips = gav_gun;;;wr-25;gma-6x2;gma-6x2;wr-25;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = GAV-25 Bullshark\nglobalPosition = (73920.588047027588, 709.18890380859375,
+      98520.169540405273)\nunitInstanceID = 23\nunitID = GAV-25\nrotation = (-7.975003E-06,
+      185.6563, 1.122145E-05)\nspawnChance = 100\nlastValidPlacement = (73920.588047027588,
+      709.18890380859375, 98520.169540405273)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Enemy:Papa\ndefaultBehavior = Orbit\ninitialSpeed
+      = 180\ndefaultNavSpeed = 180\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude
+      = 3000\nfuel = 100\nautoRefuel = True\nautoRTB = True\nrtbDestination = \nengageEnemies
+      = False\ndetectionMode = Default\nspawnOnStart = True\ninvincible = False\nequips
+      = gav_gun;;;wr-25;gma-6x2;gma-6x2;wr-25;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = Aircraft Carrier\nglobalPosition = (55039.259765625, -5, 50424.189453125)\nunitInstanceID
+      = 24\nunitID = AlliedCarrier\nrotation = (0, 106.4044, 0)\nspawnChance = 100\nlastValidPlacement
+      = (55039.259765625, -5, 50424.189453125)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Allied:Mike\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName
+      = Cruiser\nglobalPosition = (54711.942138671875, -5, 50132.771606445313)\nunitInstanceID
+      = 25\nunitID = EscortCruiser\nrotation = (0, 106.4044, 0)\nspawnChance = 100\nlastValidPlacement
+      = (54711.942138671875, -5, 50132.771606445313)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Allied:Mike\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = Cruiser\nglobalPosition = (54575.10400390625, -5, 50759.570907592773)\nunitInstanceID
+      = 26\nunitID = EscortCruiser\nrotation = (0, 106.4044, 0)\nspawnChance = 100\nlastValidPlacement
+      = (54575.10400390625, -5, 50759.570907592773)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Allied:Mike\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName
+      = KC-49\nglobalPosition = (73219.1787109375, 4995, 38986.98828125)\nunitInstanceID
+      = 27\nunitID = KC-49\nrotation = (0, 30.77688, 0)\nspawnChance = 100\nlastValidPlacement
+      = (73219.1787109375, 4995, 38986.98828125)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = null\ndefaultBehavior = Orbit\ninitialSpeed
+      = 200\ndefaultNavSpeed = 200\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude
+      = 5000\nfuel = 100\nautoRefuel = True\nautoRTB = True\nrtbDestination = \nengageEnemies
+      = False\ndetectionMode = Default\nspawnOnStart = True\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = E-4 Overlord\nglobalPosition = (70080.802001953125, 5995, 20854.369140625)\nunitInstanceID
+      = 28\nunitID = E-4\nrotation = (0, 50.1948, 0)\nspawnChance = 100\nlastValidPlacement
+      = (70080.802001953125, 5995, 20854.369140625)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\ncommsEnabled = True\nunitGroup = null\ndefaultBehavior =
+      Orbit\ninitialSpeed = 210\ndefaultNavSpeed = 210\ndefaultOrbitPoint = null\ndefaultPath
+      = null\norbitAltitude = 6000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\n}\n}\n}\nPATHS\n{\nPATH\n{\nid = 0\nname = bridgeCrossPath\nloop
+      = False\npoints = (59769.359375, 170.603515625, 58160.13671875);(59743.27734375,
+      157.5, 58034.0078125);(59569.5234375, 90.962890625, 57489.87109375);(59448.53125,
+      72.7099609375, 57202.8671875);(59214.77734375, 63.9521484375, 56927.33984375);(57978.3203125,
+      113.59765625, 55558.38671875);(56407.0234375, 147.328125, 53823.56640625);(54524.90625,
+      154.625, 51776.25);(53259.34375, 136.849609375, 50412.1015625);(52420.74609375,
+      111.48828125, 49520.421875);(51639.53515625, 75.701171875, 48688.109375);(51070.171875,
+      45.3056640625, 48087.88671875);(50955.84375, 40.533203125, 47972.01171875);(50912.8125,
+      40.408203125, 47946.7265625);(50851.66015625, 40.4072265625, 47930.875);\npathMode
+      = Smooth\n}\nPATH\n{\nid = 1\nname = airTgtPath1\nloop = True\npoints = (82874.1796875,
+      1635.00390625, 68179.234375);(77300.078125, 1635.00390625, 72135.4296875);(75608.171875,
+      1635.00390625, 80007.359375);(75697.6171875, 1635.00390625, 88694.96875);(66239.1953125,
+      1635.00390625, 90522.25);(59868.6328125, 1635.00390625, 96251.859375);(56410.21875,
+      1635.00390625, 98103.15625);(49859.640625, 1635.00390625, 93430.1953125);(45604.48828125,
+      1635.00390625, 85922.671875);(41228.875, 1635.00390625, 77821.1875);(43961.38671875,
+      1635.00390625, 70275.359375);(50620.29296875, 1635.00390625, 71587.7265625);(58258.265625,
+      1635.00390625, 67304.1171875);(64810.3359375, 1635.00390625, 58300.78125);(76508.4296875,
+      1635.00390625, 60201.046875);\npathMode = Smooth\n}\nPATH\n{\nid = 2\nname
+      = airTgtsPath2\nloop = True\npoints = (60864.4375, 7077.833984375, 90993.0859375);(38072.0078125,
+      7077.833984375, 93321.25);(22475.828125, 7077.833984375, 82890.546875);(26325.03125,
+      7077.833984375, 57514.5703125);(45876.28125, 7077.8349609375, 56211.890625);(45809.03125,
+      7077.8349609375, 76697.3671875);(69794.5859375, 7077.8349609375, 72703.265625);\npathMode
+      = Smooth\n}\nPATH\n{\nid = 3\nname = gavPath\nloop = True\npoints = (73299.375,
+      951.796875, 97609.734375);(70815.28125, 951.796875, 93966);(69132.6328125,
+      951.796875, 89596.765625);(65946.9375, 639.7109375, 88472.34375);(63689.5625,
+      639.7109375, 86980.546875);(62585.88671875, 639.7109375, 84578.25);(61183.5390625,
+      639.7109375, 81001.2578125);(60873.72265625, 796.0546875, 76855.1640625);(60015.12109375,
+      483.3671875, 74045.453125);(59213.5546875, 327.0224609375, 72246.34375);(59271.203125,
+      327.0224609375, 71125.234375);(58455.4375, 327.0224609375, 69815.0078125);(57886.359375,
+      327.0224609375, 68919.46875);(56513.09375, 327.0224609375, 68129.765625);(53993.96484375,
+      327.0224609375, 67853.765625);(52554.25, 483.3671875, 65953.5);(54184.4140625,
+      639.7109375, 63142.7734375);(56113.5546875, 483.3671875, 60106.12109375);(57676.5859375,
+      327.0234375, 57820.5);(57665.1796875, 170.6787109375, 56421.375);(56717.6171875,
+      170.6787109375, 55195.91796875);(55157.828125, 170.6787109375, 53373.421875);(53441.3203125,
+      170.6787109375, 51477.93359375);(51631.4140625, 170.6787109375, 49479.3125);(50897.10546875,
+      170.6787109375, 48062.74609375);(52018.6640625, 396.248046875, 46608.1640625);(56417.97265625,
+      396.248046875, 48343.84375);(64758.34375, 396.2490234375, 54430.4921875);(66816.5703125,
+      396.2490234375, 61155.59375);(71412.359375, 396.2490234375, 70829.203125);(75990.203125,
+      1306.4892578125, 85281.875);(76130.53125, 1449.560546875, 94272.8203125);\npathMode
+      = Smooth\n}\nPATH\n{\nid = 4\nname = carrier path\nloop = False\npoints = (56729.890625,
+      -5, 50061.88671875);(61213.96484375, -5, 48794.0390625);(186342.46875, -5,
+      46740.625);\npathMode = Linear\n}\n}\nWAYPOINTS\n{\nbullseyeID = 5\nWAYPOINT\n{\nid
+      = 0\nname = gavBase\nglobalPoint = (73909.373046875, 706.82373046875, 98383.37890625)\n}\nWAYPOINT\n{\nid
+      = 1\nname = radar obj wp\nglobalPoint = (68446.4833984375, 420.705078125, 89836.072265625)\n}\nWAYPOINT\n{\nid
+      = 2\nname = barton base wp\nglobalPoint = (62504.462646484375, 112.6064453125,
+      62351.030151367188)\n}\nWAYPOINT\n{\nid = 3\nname = danboro base wp\nglobalPoint
+      = (47554.93359375, 231.869140625, 39529.322265625)\n}\nWAYPOINT\n{\nid = 4\nname
+      = winchester base wp\nglobalPoint = (17090.65283203125, 283.39892578125, 92055.5546875)\n}\nWAYPOINT\n{\nid
+      = 5\nname = bullseye\nglobalPoint = (48935.978515625, -5, 63257.43359375)\n}\n}\nUNITGROUPS\n{\nALLIED\n{\nMike
+      = 1;24;25;26;\nMike_SETTINGS\n{\nsyncAltSpawns = False\n}\n}\nENEMY\n{\nAlpha
+      = 0;5;6;7;8;9;\nCharlie = 2;10;11;12;13;\nHotel = 2;14;15;16;\nPapa = 2;23;21;\nAlpha_SETTINGS\n{\nsyncAltSpawns
+      = False\n}\nCharlie_SETTINGS\n{\nsyncAltSpawns = False\n}\nHotel_SETTINGS\n{\nsyncAltSpawns
+      = False\n}\nPapa_SETTINGS\n{\nsyncAltSpawns = False\n}\n}\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName
+      = Start\ngroupID = 0\nbeginImmediately = True\ninitialDelay = 0\nTimedEventInfo\n{\neventName
+      = Start Events\ntime = 0\nEventTarget\n{\ntargetType = UnitGroup\ntargetID
+      = 200\neventName = Move Path\nmethodName = MovePath\nParamInfo\n{\ntype = FollowPath\nvalue
+      = 0\nname = path\n}\n}\nEventTarget\n{\ntargetType = UnitGroup\ntargetID =
+      202\neventName = Fly Nav Path\nmethodName = FlyNavPath\nParamInfo\n{\ntype
+      = FollowPath\nvalue = 1\nname = Path\n}\n}\nEventTarget\n{\ntargetType = UnitGroup\ntargetID
+      = 207\neventName = Fly Nav Path\nmethodName = FlyNavPath\nParamInfo\n{\ntype
+      = FollowPath\nvalue = 2\nname = Path\n}\n}\nEventTarget\n{\ntargetType = UnitGroup\ntargetID
+      = 112\neventName = Move Path\nmethodName = MovePath\nParamInfo\n{\ntype = FollowPath\nvalue
+      = 4\nname = path\n}\n}\nEventTarget\n{\ntargetType = UnitGroup\ntargetID =
+      200\neventName = Set Formation\nmethodName = SetFormation\nParamInfo\n{\ntype
+      = GroundSquad+GroundFormations\nvalue = Column\nname = formation\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\nTriggerEvent\n{\nid
+      = 0\nenabled = True\ntriggerType = Conditional\nconditional = 0\neventName
+      = gav takeoff\nEventInfo\n{\neventName = \nEventTarget\n{\ntargetType = Event_Sequences\ntargetID
+      = 0\neventName = Begin\nmethodName = BeginEvent\n}\n}\n}\n}\nOBJECTIVES\n{\nObjective\n{\nobjectiveName
+      = Moving Targets\nobjectiveInfo = Destroy the column of vehicles crossing the
+      bridge.\nobjectiveID = 0\norderID = 0\nrequired = True\ncompletionReward =
+      0\nwaypoint = unit:5\nautoSetWaypoint = False\nstartMode = Immediate\nobjectiveType
+      = Destroy\nstartEvent\n{\nEventInfo\n{\neventName = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName
+      = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName = Completed
+      Event\n}\n}\nfields\n{\ntargets = 9;8;7;6;5;\nminRequired = 5\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Artillery Targets\nobjectiveInfo
+      = Destroy the artillery targets.\nobjectiveID = 1\norderID = 1\nrequired =
+      True\ncompletionReward = 0\nwaypoint = unit:2\nautoSetWaypoint = False\nstartMode
+      = Immediate\nobjectiveType = Destroy\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 1;2;3;4;\nminRequired = 4\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Bomber Group\nobjectiveInfo
+      = Destroy the bomber and its escorts flying at high altitude.\nobjectiveID
+      = 2\norderID = 2\nrequired = True\ncompletionReward = 0\nwaypoint = unit:14\nautoSetWaypoint
+      = False\nstartMode = Immediate\nobjectiveType = Destroy\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 16;15;14;\nminRequired = 3\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Radar Network\nobjectiveInfo
+      = Destroy the radar network around the central mountains.\nobjectiveID = 3\norderID
+      = 3\nrequired = True\ncompletionReward = 0\nwaypoint = 1\nautoSetWaypoint =
+      False\nstartMode = Immediate\nobjectiveType = Destroy\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 17;18;19;20;\nminRequired = 4\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Attack Jets\nobjectiveInfo
+      = Destroy the vertical take-off attack jets coming from the FARP.\nobjectiveID
+      = 4\norderID = 4\nrequired = True\ncompletionReward = 0\nwaypoint = unit:21\nautoSetWaypoint
+      = False\nstartMode = Immediate\nobjectiveType = Destroy\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 21;23;\nminRequired = 2\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = RTB\nobjectiveInfo
+      = Land at any of the airbases or aircraft carrier.\nobjectiveID = 5\norderID
+      = 5\nrequired = True\ncompletionReward = 0\nwaypoint = null\nautoSetWaypoint
+      = False\nstartMode = Final\nobjectiveType = Conditional\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\nsuccessConditional = 3\nfailConditional
+      = null\n}\n}\n}\nOBJECTIVES_OPFOR\n{\n}\nStaticObjects\n{\nStaticObject\n{\nprefabID
+      = platform1\nid = 0\nglobalPos = (74557.08935546875, 78.5203857421875, 67924.6806640625)\nrotation
+      = (0, 323.5828, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 1\nglobalPos
+      = (74589.207901000977, 78.620389938354492, 67948.36116027832)\nrotation = (0,
+      323.5828, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 2\nglobalPos =
+      (74524.734634399414, 80.719970703125, 67900.35472869873)\nrotation = (0, 323.5828,
+      0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 3\nglobalPos = (74548.625442504883,
+      80.94122314453125, 67867.692413330078)\nrotation = (0, 323.5828, 0)\n}\nStaticObject\n{\nprefabID
+      = platform1\nid = 4\nglobalPos = (53673.194488525391, 2074.026123046875, 87793.194641113281)\nrotation
+      = (0, 21.68459, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 5\nglobalPos
+      = (52250.162902832031, 2080.570556640625, 85062.883972167969)\nrotation = (0,
+      5.205982, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 6\nglobalPos =
+      (79283.097595214844, 1541.333740234375, 86811.559020996094)\nrotation = (0,
+      5.065976, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 7\nglobalPos =
+      (74042.642333984375, 706.82373046875, 98416.43017578125)\nrotation = (0, 5.065976,
+      0)\n}\nStaticObject\n{\nprefabID = FarpA\nid = 8\nglobalPos = (73905.638244628906,
+      706.82366943359375, 98490.502746582031)\nrotation = (0, 276.4699, 0)\n}\n}\nConditionals\n{\nCONDITIONAL\n{\nid
+      = 0\noutputNodePos = (325, 55, 0)\nroot = 1\nCOMP\n{\nid = 2\ntype = SCCUnit\nuiPos
+      = (-595, 258, 0)\nunit = 0\nmethodName = SCC_NearWaypoint\nmethodParameters
+      = 0;6500;\nisNot = False\n}\nCOMP\n{\nid = 1\ntype = SCCOr\nuiPos = (-193,
+      64, 0)\nfactors = 2;3;4;5;\n}\nCOMP\n{\nid = 3\ntype = SCCUnit\nuiPos = (-597,
+      71, 0)\nunit = 0\nmethodName = SCC_IsLockingTarget\nmethodParameters = 21;TGP;\nisNot
+      = False\n}\nCOMP\n{\nid = 4\ntype = SCCUnit\nuiPos = (-592.3677, -119.6729,
+      0)\nunit = 0\nmethodName = SCC_IsLockingTarget\nmethodParameters = 23;TGP;\nisNot
+      = False\n}\nCOMP\n{\nid = 5\ntype = SCCUnit\nuiPos = (-574.1705, -342.5246,
+      0)\nunit = 20\nmethodName = SC_IsAlive\nmethodParameters = null\nisNot = True\n}\n}\nCONDITIONAL\n{\nid
+      = 1\noutputNodePos = (0, 0, 0)\nroot = 1\nCOMP\n{\nid = 1\ntype = SCCUnitGroup\nuiPos
+      = (-369, 37, 0)\nunitGroup = Enemy:Papa\nmethodName = AllAirborne\nmethodParameters
+      = null\nisNot = False\n}\n}\nCONDITIONAL\n{\nid = 3\noutputNodePos = (0, 0,
+      0)\nroot = 0\nCOMP\n{\nid = 0\ntype = SCCAnd\nuiPos = (-213, 189, 0)\nfactors
+      = 1;3;2;\n}\nCOMP\n{\nid = 1\ntype = SCCUnit\nuiPos = (-667, 381, 0)\nunit
+      = 0\nmethodName = SCC_Landed\nmethodParameters = null\nisNot = False\n}\nCOMP\n{\nid
+      = 2\ntype = SCCOr\nuiPos = (-372, 5, 0)\nfactors = 4;6;5;7;\n}\nCOMP\n{\nid
+      = 3\ntype = SCCUnit\nuiPos = (-664.0104, 266.5765, 0)\nunit = 0\nmethodName
+      = SCC_SurfaceSpeed\nmethodParameters = Less_Than;10;\nisNot = False\n}\nCOMP\n{\nid
+      = 4\ntype = SCCUnit\nuiPos = (-663.6156, 64.21613, 0)\nunit = 0\nmethodName
+      = SCC_NearWaypoint\nmethodParameters = 2;1600;\nisNot = False\n}\nCOMP\n{\nid
+      = 5\ntype = SCCUnit\nuiPos = (-669.6332, -247.7833, 0)\nunit = 0\nmethodName
+      = SCC_NearWaypoint\nmethodParameters = 4;1600;\nisNot = False\n}\nCOMP\n{\nid
+      = 6\ntype = SCCUnit\nuiPos = (-663.6332, -87.78333, 0)\nunit = 0\nmethodName
+      = SCC_NearWaypoint\nmethodParameters = 3;1600;\nisNot = False\n}\nCOMP\n{\nid
+      = 7\ntype = SCCUnit\nuiPos = (-646.5793, -412.6154, 0)\nunit = 0\nmethodName
+      = SCC_NearWaypoint\nmethodParameters = unit:24;300;\nisNot = False\n}\n}\n}\nConditionalActions\n{\n}\nEventSequences\n{\nSEQUENCE\n{\nid
+      = 0\nsequenceName = gav sequence\nstartImmediately = False\nEVENT\n{\ndelay
+      = 0\nnodeName = take off 1\nEventInfo\n{\neventName = \nEventTarget\n{\ntargetType
+      = Unit\ntargetID = 21\neventName = Take Off\nmethodName = TakeOff\n}\n}\n}\nEVENT\n{\ndelay
+      = 6\nnodeName = take off 2\nexitConditional = 1\nEventInfo\n{\neventName =
+      \nEventTarget\n{\ntargetType = Unit\ntargetID = 23\neventName = Take Off\nmethodName
+      = TakeOff\n}\n}\n}\nEVENT\n{\ndelay = 5\nnodeName = fly path\nEventInfo\n{\neventName
+      = \nEventTarget\n{\ntargetType = UnitGroup\ntargetID = 215\neventName = Fly
+      Nav Path\nmethodName = FlyNavPath\nParamInfo\n{\ntype = FollowPath\nvalue =
+      3\nname = Path\n}\n}\n}\n}\n}\n}\nBASES\n{\nBaseInfo\n{\nid = 0\noverrideBaseName
+      = \nbaseTeam = Allied\n}\nBaseInfo\n{\nid = 8\noverrideBaseName = \nbaseTeam
+      = Allied\n}\nBaseInfo\n{\nid = 9\noverrideBaseName = \nbaseTeam = Allied\n}\n}\nGlobalValues\n{\n}\nBriefing\n{\nBRIEFING_NOTE\n{\ntext
+      = Various air and land targets are scattered around the area. Practice using
+      your sensors and weapons to find and destroy the targets without worrying about
+      them shooting back.///n///nSeveral airbases and a carrier are available for
+      you to use for rearming and refuelling if necessary.\nimagePath = Example\\26b\\targetPractice\\26bCity.png\naudioClipPath
+      = \n}\n}\nResourceManifest\n{\n0 = Example\\26b\\targetPractice\\26bCity.png\n}\n}\n"
+    image: {fileID: 2800000, guid: a00c431d1b02ea84c8407fefe0a7adde, type: 3}
+    images:
+    - {fileID: 2800000, guid: 494eaf41d73062a4083ce1ea9eee2562, type: 3}
+    imagePaths:
+    - Example\26b\targetPractice\26bCity.png
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  - scenarioID: 2v2dogfight
+    scenarioConfig: "CustomScenario\n{\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 5\nscenarioName = 2v2 Air Combat\nscenarioID = 2v2dogfight\nscenarioDescription
+      = Take on two enemy fighters with your wingman.\nmapID = map_akutan\nvehicle
+      = F/A-26B\nallowedEquips = fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;fa26_droptank;fa26_tgp;\nforcedEquips
+      = ;;;;;;;;;;;;;;;\nforceEquips = False\nequipsConfigurable = True\nbaseBudget
+      = 100000\nisTraining = False\nrtbWptID = wpt:1\nrefuelWptID = wpt:1\nenvName
+      = day\nselectableEnv = True\nUNITS\n{\nUnitSpawner\n{\nunitName = Player\nglobalPosition
+      = (83702, 5995, 13010.09375)\nunitInstanceID = 0\nunitID = PlayerSpawn\nrotation
+      = (0, 276.185, 0)\nspawnFlags = \nUnitFields\n{\nstartMode = FlightAP\ninitialSpeed
+      = 300\nunitGroup = Allied:Alpha\n}\n}\nUnitSpawner\n{\nunitName = Wingman\nglobalPosition
+      = (83740.234375, 5995.00048828125, 12959.2802734375)\nunitInstanceID = 1\nunitID
+      = FA-26B AI\nrotation = (0, 276.185, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Allied:Alpha\ndefaultBehavior = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint
+      = null\ndefaultPath = null\norbitAltitude = 3000\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\nequips = af_gun;fa26_aim9x3;af_aim9;af_amraam;af_amraam;af_amraam;af_amraam;af_amraam;af_amraam;af_aim9;fa26_aim9x3;fa26_droptank;fa26_droptank;fa26_droptank;;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (-20598.2109375,
+      5995, 40110.7421875)\nunitInstanceID = 2\nunitID = ASF-33\nrotation = (0, 108.185,
+      0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Alpha\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint = 0\ndefaultPath = null\norbitAltitude
+      = 6000\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (-20699.84375,
+      5995, 39810.60546875)\nunitInstanceID = 3\nunitID = ASF-33\nrotation = (0,
+      108.185, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Alpha\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint = 0\ndefaultPath = null\norbitAltitude
+      = 6000\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33 Surprise\nglobalPosition = (-14276.828125,
+      6685.36474609375, -20434.484375)\nunitInstanceID = 4\nunitID = ASF-33\nrotation
+      = (0, 36.48478, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Bravo\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint = 0\ndefaultPath = null\norbitAltitude
+      = 6698.738\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = False\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33 Surprise\nglobalPosition = (65041.3984375,
+      7736.0029296875, 79863.6484375)\nunitInstanceID = 5\nunitID = ASF-33\nrotation
+      = (0, 217.2752, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Bravo\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint = 0\ndefaultPath = null\norbitAltitude
+      = 6698.738\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = False\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33 Surprise\nglobalPosition = (-14304.7109375,
+      6685.36474609375, -20414.0390625)\nunitInstanceID = 6\nunitID = ASF-33\nrotation
+      = (0, 34.58388, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Bravo\ndefaultBehavior
+      = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint = 0\ndefaultPath = null\norbitAltitude
+      = 6698.738\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = False\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-33 Surprise\nglobalPosition = (65006.1328125, 7736.0029296875, 79890.8984375)\nunitInstanceID
+      = 7\nunitID = ASF-33\nrotation = (0, 222.4694, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Bravo\ndefaultBehavior = Orbit\ninitialSpeed = 300\ndefaultOrbitPoint
+      = 0\ndefaultPath = null\norbitAltitude = 6698.738\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = False\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\n}\n}\n}\nPATHS\n{\n}\nWAYPOINTS\n{\nWAYPOINT\n{\nid
+      = 0\nname = Midpoint\nglobalPoint = (21056.891479492188, 6685.36474609375,
+      27687.732666015625)\n}\nWAYPOINT\n{\nid = 1\nname = Airport\nglobalPoint =
+      (28675.828857421875, 0.12939453125, 31914.18017578125)\n}\n}\nUNITGROUPS\n{\nALLIED\n{\nAlpha
+      = 2;1;0;\n}\nENEMY\n{\nAlpha = 2;2;3;\nBravo = 2;4;5;6;7;\n}\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName
+      = Start Events\ngroupID = 0\nbeginImmediately = True\ninitialDelay = 1\nTimedEventInfo\n{\neventName
+      = JoinUp\ntime = 0\nEventTarget\n{\ntargetType = UnitGroup\ntargetID = 100\neventName
+      = Form On Pilot\nmethodName = FormOnPilot\nParamInfo\n{\ntype = UnitReference\nvalue
+      = 0\nname = Target Leader\nParamAttrInfo\n{\ntype = PilotUnitFilter\ndata =
+      null\n}\nParamAttrInfo\n{\ntype = TeamOptions\ndata = SameTeam\n}\n}\n}\nEventTarget\n{\ntargetType
+      = UnitGroup\ntargetID = 200\neventName = Set Nav Speed\nmethodName = SetNavSpeed\nParamInfo\n{\ntype
+      = System.Single\nvalue = 350\nname = Airspeed\nParamAttrInfo\n{\ntype = MinMax\ndata
+      = (60,600)\n}\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\n}\nOBJECTIVES\n{\nObjective\n{\nobjectiveName
+      = CAP\nobjectiveInfo = Destroy the two enemy fighters.\nobjectiveID = 0\nrequired
+      = True\ncompletionReward = 0\nwaypoint = 0\nautoSetWaypoint = False\nstartMode
+      = Immediate\nobjectiveType = Destroy\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 2;3;\nminRequired = 2\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Surprise\nobjectiveInfo
+      = Surprise! More fighters to kill. Where will they come from?\nobjectiveID
+      = 1\nrequired = True\ncompletionReward = 0\nwaypoint = 0\nautoSetWaypoint =
+      False\nstartMode = PreReqs\nobjectiveType = Destroy\npreReqObjectives = 0;\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\nEventTarget\n{\ntargetType = Unit\ntargetID = 4\neventName =
+      Spawn Unit\nmethodName = SpawnUnit\n}\nEventTarget\n{\ntargetType = Unit\ntargetID
+      = 5\neventName = Spawn Unit\nmethodName = SpawnUnit\n}\nEventTarget\n{\ntargetType
+      = Unit\ntargetID = 6\neventName = Spawn Unit\nmethodName = SpawnUnit\n}\nEventTarget\n{\ntargetType
+      = Unit\ntargetID = 7\neventName = Spawn Unit\nmethodName = SpawnUnit\n}\nEventTarget\n{\ntargetType
+      = UnitGroup\ntargetID = 201\neventName = Set Nav Speed\nmethodName = SetNavSpeed\nParamInfo\n{\ntype
+      = System.Single\nvalue = 360\nname = Airspeed\nParamAttrInfo\n{\ntype = MinMax\ndata
+      = (60,600)\n}\n}\n}\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 4;5;6;7;\nminRequired = 4\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Land\nobjectiveInfo
+      = Land at the airbase.\nobjectiveID = 2\nrequired = True\ncompletionReward
+      = 0\nwaypoint = 1\nautoSetWaypoint = True\nstartMode = Final\nobjectiveType
+      = Land\nstartEvent\n{\nEventInfo\n{\neventName = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName
+      = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName = Completed
+      Event\n}\n}\nfields\n{\nradius = 2000\n}\n}\n}\nBriefing\n{\nBRIEFING_NOTE\n{\ntext
+      = In this scenario, you will start in the air with a wingman.  Fly towards
+      the island and take out the two enemy fighters.\nimagePath = Example\\asf33s.jpg\naudioClipPath
+      = \n}\n}\nResourceManifest\n{\n0 = Example\\asf33s.jpg\n}\n}\n"
+    image: {fileID: 2800000, guid: 6f6088d935cb5dd489456526cc675c1e, type: 3}
+    images:
+    - {fileID: 2800000, guid: 26b12e5efb600044ea76d672be37f1cf, type: 3}
+    imagePaths:
+    - Example\asf33s.jpg
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  - scenarioID: carrierLandingPractice
+    scenarioConfig: "CustomScenario\n{\ngameVersion = 0.1.0p13\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 3\nscenarioName = Carrier Landing Practice\nscenarioID = carrierLandingPractice\nscenarioDescription
+      = Practice landing on the aircraft carrier.\nmapID = map_akutan\nvehicle =
+      F/A-26B\nallowedEquips = fa26_droptank;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;\nforcedEquips
+      = ;;;;;;;;;;;;;;;\nforceEquips = False\nnormForcedFuel = 1\nequipsConfigurable
+      = True\nbaseBudget = 100000\nisTraining = False\nrtbWptID = unit:0\nrefuelWptID
+      = \nenvName = day\nselectableEnv = True\nqsMode = Anywhere\nqsLimit = -1\nUNITS\n{\nUnitSpawner\n{\nunitName
+      = Aircraft Carrier\nglobalPosition = (-8831.5546875, -5.000244140625, 20699.74609375)\nunitInstanceID
+      = 0\nunitID = AlliedCarrier\nrotation = (0, 44.05892, 0)\nspawnChance = 100\nlastValidPlacement
+      = (-8831.5546875, -5.000244140625, 20699.74609375)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = null\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Player\nglobalPosition = (-9455.22021484375, 298.99981689453125, 19403.292236328125)\nunitInstanceID
+      = 1\nunitID = PlayerSpawn\nrotation = (0, 44.05892, 0)\nspawnChance = 100\nlastValidPlacement
+      = (-9455.22021484375, 298.99981689453125, 19403.292236328125)\nspawnFlags =
+      \nUnitFields\n{\nstartMode = FlightReady\ninitialSpeed = 160\nunitGroup = null\n}\n}\n}\nPATHS\n{\n}\nWAYPOINTS\n{\nWAYPOINT\n{\nid
+      = 0\nname = carrierWpt\nglobalPoint = (63003.732421875, -5, 94714.65625)\n}\n}\nUNITGROUPS\n{\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName
+      = StartEvents\ngroupID = 0\nbeginImmediately = True\ninitialDelay = 0\nTimedEventInfo\n{\neventName
+      = Move Carrier\ntime = 0\nEventTarget\n{\ntargetType = Unit\ntargetID = 0\neventName
+      = Move To\nmethodName = MoveTo\nParamInfo\n{\ntype = Waypoint\nvalue = 0\nname
+      = Target\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\n}\nOBJECTIVES\n{\nObjective\n{\nobjectiveName
+      = Land\nobjectiveInfo = Land on the carrier.\nobjectiveID = 0\norderID = 0\nrequired
+      = True\ncompletionReward = 0\nwaypoint = unit:0\nautoSetWaypoint = False\nstartMode
+      = Immediate\nobjectiveType = Land\nstartEvent\n{\nEventInfo\n{\neventName =
+      Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\nradius = 230\n}\n}\n}\nStaticObjects\n{\n}\nConditionals\n{\n}\nConditionalActions\n{\n}\nEventSequences\n{\n}\nBASES\n{\nBaseInfo\n{\nid
+      = 0\noverrideBaseName = \nbaseTeam = Allied\n}\n}\nGlobalValues\n{\n}\nBriefing\n{\nBRIEFING_NOTE\n{\ntext
+      = You will start in the air near the carrier.  Find it, then circle around
+      for a landing approach.\nimagePath = Images\\fighterThumb2.png\naudioClipPath
+      = \n}\n}\nResourceManifest\n{\n0 = Images\\fighterThumb2.png\n}\n}\n"
+    image: {fileID: 2800000, guid: 0d1d353b960852648bf9090c9039ff12, type: 3}
+    images:
+    - {fileID: 2800000, guid: 5e8e50d4c38f415459a1fe9a8df3da0a, type: 3}
+    imagePaths:
+    - Images\fighterThumb2.png
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  - scenarioID: FA26Difficult
+    scenarioConfig: "CustomScenario\n{\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 6\nscenarioName = Difficult Mission\nscenarioID = FA26Difficult\nscenarioDescription
+      = A variety of hostile targets to destroy.  Practice using the aircraft as
+      a fighter, a striker, or a mix of both.\nmapID = map_akutan\nvehicle = F/A-26B\nallowedEquips
+      = fa26_droptank;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;\nforcedEquips
+      = ;;;;;;;;;;;;;;;\nforceEquips = False\nnormForcedFuel = 1\nequipsConfigurable
+      = True\nbaseBudget = 1000000\nisTraining = False\nrtbWptID = unit:29\nrefuelWptID
+      = unit:5\nenvName = day\nselectableEnv = True\nUNITS\n{\nUnitSpawner\n{\nunitName
+      = SAM FireCtrl Radar\nglobalPosition = (24829.916015625, 895.0322265625, 31075.9609375)\nunitInstanceID
+      = 0\nunitID = SamFCR\nrotation = (358.6721, 308.1799, 357.5773)\nspawnFlags
+      = \nUnitFields\n{\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\n}\n}\nUnitSpawner\n{\nunitName = SAM FireCtrl Radar\nglobalPosition
+      = (38187.8125, 86.064453125, 28955.90234375)\nunitInstanceID = 2\nunitID =
+      SamFCR\nrotation = (0, 112.861, 0)\nspawnFlags = \nUnitFields\n{\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Player\nglobalPosition = (27264.970703125, 19.509765625, -6966.234375)\nunitInstanceID
+      = 3\nunitID = PlayerSpawn\nrotation = (6.299556E-06, 140.3283, 6.106665E-13)\nspawnFlags
+      = carrier;\nUnitFields\n{\nstartMode = Cold\ninitialSpeed = 300\nunitGroup
+      = Allied:Alpha\n}\n}\nUnitSpawner\n{\nunitName = KC-49\nglobalPosition = (23397.421875,
+      4011.9609375, -16947.359375)\nunitInstanceID = 5\nunitID = KC-49\nrotation
+      = (0, 104.1889, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = null\ndefaultBehavior
+      = Orbit\ninitialSpeed = 219.7116\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude
+      = 4078.339\nfuel = 100\nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\n}\n}\nUnitSpawner\n{\nunitName = SAM Launcher\nglobalPosition = (33533.78515625,
+      86.064453125, 29678.02734375)\nunitInstanceID = 6\nunitID = SamBattery1\nrotation
+      = (0, 176.1579, 0)\nspawnFlags = \nUnitFields\n{\nradarUnits = 0;2;7;\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\nequips = BSM-66;\nallowReload
+      = False\nreloadTime = 120\n}\n}\nUnitSpawner\n{\nunitName = SAM FireCtrl Radar\nglobalPosition
+      = (32838.265625, 0, 29317.3046875)\nunitInstanceID = 7\nunitID = SamFCR\nrotation
+      = (1.001165E-07, 179.4401, 1.02448E-05)\nspawnFlags = \nUnitFields\n{\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-33\nglobalPosition = (40588.00390625, 4591.46484375, 52869.5)\nunitInstanceID
+      = 12\nunitID = ASF-33\nrotation = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Alpha\ndefaultBehavior = Path\ninitialSpeed = 260\ndefaultOrbitPoint
+      = null\ndefaultPath = 0\norbitAltitude = 4477.52\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\ndefaultNavSpeed = 280\nequips
+      = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\n}\n}\nUnitSpawner\n{\nunitName
+      = ASF-33\nglobalPosition = (40456.689453125, 4591.46484375, 52866.0625)\nunitInstanceID
+      = 13\nunitID = ASF-33\nrotation = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Alpha\ndefaultBehavior = Path\ninitialSpeed = 260\ndefaultOrbitPoint
+      = null\ndefaultPath = 0\norbitAltitude = 4477.52\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (40464.78125,
+      4591.46484375, 52914.953125)\nunitInstanceID = 15\nunitID = ASF-33\nrotation
+      = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Alpha\ndefaultBehavior
+      = Path\ninitialSpeed = 319.7116\ndefaultOrbitPoint = 0\ndefaultPath = 0\norbitAltitude
+      = 4477.52\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (40473.275390625,
+      4591.46484375, 52966.265625)\nunitInstanceID = 19\nunitID = ASF-33\nrotation
+      = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Alpha\ndefaultBehavior
+      = Path\ninitialSpeed = 319.7116\ndefaultOrbitPoint = 0\ndefaultPath = 0\norbitAltitude
+      = 4477.52\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = NMSS Cruiser\nglobalPosition = (52057.5859375,
+      -5, 30369.109375)\nunitInstanceID = 20\nunitID = ESuperMissileCruiser\nrotation
+      = (0, 228.6761, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Bravo\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = DMS Cruiser\nglobalPosition = (51902.4765625, -5, 30642.20703125)\nunitInstanceID
+      = 21\nunitID = DroneMissileCruiser\nrotation = (0, 228.6761, 0)\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Enemy:Bravo\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName = DMS Cruiser\nglobalPosition
+      = (52441.73828125, -5, 30197.3515625)\nunitInstanceID = 22\nunitID = DroneMissileCruiser\nrotation
+      = (0, 228.6761, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Bravo\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Gun Boat\nglobalPosition = (51824.31640625, -5, 29870.03125)\nunitInstanceID
+      = 23\nunitID = DroneGunBoat\nrotation = (0, 228.6761, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Bravo\nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\n}\n}\nUnitSpawner\n{\nunitName = Gun Boat\nglobalPosition = (51518.453125,
+      -5, 30246.8125)\nunitInstanceID = 24\nunitID = DroneGunBoat\nrotation = (0,
+      228.6761, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Bravo\nengageEnemies
+      = False\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Manta UCAV\nglobalPosition = (52030.8359375, 718.654296875, 30415.25390625)\nunitInstanceID
+      = 25\nunitID = AIUCAV\nrotation = (0, 265.2713, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Mike\ndefaultBehavior = Orbit\ninitialSpeed = 150\ndefaultOrbitPoint
+      = null\ndefaultPath = null\norbitAltitude = 1500\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\ndefaultNavSpeed = 180\nequips
+      = eucav_gun;eucav_hellfire;eucav_hellfire;eucav_hellfire;eucav_hellfire;\n}\n}\nUnitSpawner\n{\nunitName
+      = Manta UCAV\nglobalPosition = (52146.30078125, 718.654296875, 30503.74609375)\nunitInstanceID
+      = 26\nunitID = AIUCAV\nrotation = (0, 265.2713, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Mike\ndefaultBehavior = Orbit\ninitialSpeed = 150\ndefaultOrbitPoint
+      = null\ndefaultPath = null\norbitAltitude = 1500\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Manta UCAV\nglobalPosition = (52150.36328125, 718.654296875, 30340.03125)\nunitInstanceID
+      = 27\nunitID = AIUCAV\nrotation = (0, 265.2713, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Mike\ndefaultBehavior = Orbit\ninitialSpeed = 150\ndefaultOrbitPoint
+      = null\ndefaultPath = null\norbitAltitude = 1500\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Manta UCAV\nglobalPosition = (52270.45703125, 718.654296875, 30282.94921875)\nunitInstanceID
+      = 28\nunitID = AIUCAV\nrotation = (0, 265.2713, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Mike\ndefaultBehavior = Orbit\ninitialSpeed = 150\ndefaultOrbitPoint
+      = null\ndefaultPath = null\norbitAltitude = 1500\nfuel = 100\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Carrier\nglobalPosition = (27370.337890625, -5, -6995.2734375)\nunitInstanceID
+      = 29\nunitID = AlliedCarrier\nrotation = (0, 86.34255, 0)\nspawnFlags = \nUnitFields\n{\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\ncarrierSpawns = 0:54;1:48;2:3;3:55;4:47;5:53;6:-1;7:52;\nunitGroup
+      = Allied:Charlie\n}\n}\nUnitSpawner\n{\nunitName = SAAW\nglobalPosition = (24983.439453125,
+      0, 47715.1328125)\nunitInstanceID = 30\nunitID = SAAW\nrotation = (3.12036E-06,
+      342.268, 9.758548E-06)\nspawnFlags = \nUnitFields\n{\n}\n}\nUnitSpawner\n{\nunitName
+      = IRAPC\nglobalPosition = (42099.109375, 0, 38569.953125)\nunitInstanceID =
+      31\nunitID = IRAPC\nrotation = (8.754311E-06, 58.70149, -5.322393E-06)\nspawnFlags
+      = \nUnitFields\n{\n}\n}\nUnitSpawner\n{\nunitName = SAM Launcher\nglobalPosition
+      = (32559.638671875, 0, 31005.4375)\nunitInstanceID = 32\nunitID = SamBattery1\nrotation
+      = (-6.499297E-07, 176.3629, -1.022465E-05)\nspawnFlags = \nUnitFields\n{\nradarUnits
+      = 0;2;7;\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart = True\nequips
+      = BSM-66;\nallowReload = False\nreloadTime = 120\n}\n}\nUnitSpawner\n{\nunitName
+      = IRAPC\nglobalPosition = (32712.0546875, 1, 31074.12109375)\nunitInstanceID
+      = 33\nunitID = IRAPC\nrotation = (4.331664E-05, 79.69102, -2.084776E-06)\nspawnFlags
+      = \nUnitFields\n{\n}\n}\nUnitSpawner\n{\nunitName = F/A-26B\nglobalPosition
+      = (27242.4296875, 19.509765625, -7024.171875)\nunitInstanceID = 55\nunitID
+      = FA-26B AI\nrotation = (-6.011083E-06, 18.22193, -2.035555E-13)\nspawnFlags
+      = carrier;\nUnitFields\n{\nunitGroup = Allied:Alpha\ndefaultBehavior = TakeOff\ninitialSpeed
+      = 280\ndefaultNavSpeed = 280\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude
+      = 3000\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;fa26_maverickx3;af_aim9;af_amraam;fa26_maverickx1;fa26_mk82x3;fa26_mk82x3;fa26_maverickx1;af_amraam;af_aim9;fa26_aim9x3;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;\n}\n}\nUnitSpawner\n{\nunitName
+      = SAM FireCtrl Radar\nglobalPosition = (49255.8515625, 797.830078125, 33705.75390625)\nunitInstanceID
+      = 35\nunitID = SamFCR\nrotation = (351.9729, 150.069, 4.662899)\nspawnFlags
+      = \nUnitFields\n{\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\n}\n}\nUnitSpawner\n{\nunitName = SAM FireCtrl Radar\nglobalPosition
+      = (50263.41015625, 267.810546875, 37238.484375)\nunitInstanceID = 36\nunitID
+      = SamFCR\nrotation = (2.653493, 346.8138, 358.9581)\nspawnFlags = \nUnitFields\n{\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = SAM Launcher\nglobalPosition = (42082.3984375, 0, 38313.0234375)\nunitInstanceID
+      = 37\nunitID = SamBattery1\nrotation = (9.815647E-06, 106.6516, 2.935796E-06)\nspawnFlags
+      = \nUnitFields\n{\nradarUnits = 35;36;\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\nequips = BSM-66LR;\nallowReload = False\nreloadTime
+      = 120\n}\n}\nUnitSpawner\n{\nunitName = SAM Launcher\nglobalPosition = (39694.9140625,
+      0, 30333.07421875)\nunitInstanceID = 38\nunitID = SamBattery1\nrotation = (8.872712E-06,
+      119.9996, 5.122582E-06)\nspawnFlags = \nUnitFields\n{\nradarUnits = 35;36;\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\nequips = BSM-66;\nallowReload
+      = False\nreloadTime = 120\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition
+      = (44597.359375, 4591.46484375, 57509.453125)\nunitInstanceID = 40\nunitID
+      = ASF-33\nrotation = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Enemy:Charlie\ndefaultBehavior = Path\ninitialSpeed = 319.7116\ndefaultOrbitPoint
+      = 0\ndefaultPath = 0\norbitAltitude = 4477.52\nfuel = 100\nengageEnemies =
+      True\ndetectionMode = Default\nspawnOnStart = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (44975.21484375,
+      4591.46484375, 57397.5078125)\nunitInstanceID = 41\nunitID = ASF-33\nrotation
+      = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Path\ninitialSpeed = 319.7116\ndefaultOrbitPoint = 0\ndefaultPath = 0\norbitAltitude
+      = 4477.52\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (44267.671875,
+      4591.46484375, 57615.46875)\nunitInstanceID = 42\nunitID = ASF-33\nrotation
+      = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Path\ninitialSpeed = 319.7116\ndefaultOrbitPoint = 0\ndefaultPath = 0\norbitAltitude
+      = 4477.52\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = ASF-33\nglobalPosition = (45315.89453125,
+      4591.46484375, 57292.5625)\nunitInstanceID = 43\nunitID = ASF-33\nrotation
+      = (0, 281.5901, 0)\nspawnFlags = \nUnitFields\n{\nunitGroup = Enemy:Charlie\ndefaultBehavior
+      = Path\ninitialSpeed = 319.7116\ndefaultOrbitPoint = 0\ndefaultPath = 0\norbitAltitude
+      = 4477.52\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = af_gun;asf_mrmx6;asf_srmx2Left;asf_srmx2Left;asf_droptank;asf_droptank;\ndefaultNavSpeed
+      = 280\n}\n}\nUnitSpawner\n{\nunitName = F/A-26B\nglobalPosition = (27217.865234375,
+      19.509765625, -6988.65625)\nunitInstanceID = 54\nunitID = FA-26B AI\nrotation
+      = (6.600371E-06, 146.485, -2.035555E-13)\nspawnFlags = carrier;\nUnitFields\n{\nunitGroup
+      = Allied:Alpha\ndefaultBehavior = TakeOff\ninitialSpeed = 280\ndefaultNavSpeed
+      = 280\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude = 3000\nfuel
+      = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart = True\nequips
+      = af_gun;fa26_maverickx3;af_aim9;af_amraam;fa26_maverickx1;fa26_mk82x3;fa26_mk82x3;fa26_maverickx1;af_amraam;af_aim9;fa26_aim9x3;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;\n}\n}\nUnitSpawner\n{\nunitName
+      = F/A-26B\nglobalPosition = (27353.251953125, 19.509765625, -7021.1171875)\nunitInstanceID
+      = 53\nunitID = FA-26B AI\nrotation = (0, 27.69255, 0)\nspawnFlags = carrier;\nUnitFields\n{\nunitGroup
+      = Allied:Alpha\ndefaultBehavior = TakeOff\ninitialSpeed = 280\ndefaultNavSpeed
+      = 280\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude = 3000\nfuel
+      = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart = True\nequips
+      = af_gun;af_aim9;af_aim9;af_amraam;af_amraam;af_amraam;af_amraam;af_amraam;af_amraam;af_aim9;af_aim9;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;\n}\n}\nUnitSpawner\n{\nunitName
+      = F/A-26B\nglobalPosition = (27402.765625, 19.509765625, -7019.75390625)\nunitInstanceID
+      = 52\nunitID = FA-26B AI\nrotation = (0, 27.69255, 0)\nspawnFlags = carrier;\nUnitFields\n{\nunitGroup
+      = Allied:Alpha\ndefaultBehavior = TakeOff\ninitialSpeed = 280\ndefaultNavSpeed
+      = 280\ndefaultOrbitPoint = null\ndefaultPath = null\norbitAltitude = 3000\nfuel
+      = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart = True\nequips
+      = af_gun;af_aim9;af_aim9;af_amraam;af_amraam;af_amraam;af_amraam;af_amraam;af_amraam;af_aim9;af_aim9;fa26_droptank;fa26_droptank;fa26_droptank;af_tgp;\n}\n}\nUnitSpawner\n{\nunitName
+      = AV-42C\nglobalPosition = (27267.36328125, 19.509765625, -7025.60546875)\nunitInstanceID
+      = 47\nunitID = AV-42CAI\nrotation = (-5.59267E-06, 24.25354, 2.035555E-13)\nspawnFlags
+      = carrier;\nUnitFields\n{\nunitGroup = Allied:Alpha\ndefaultBehavior = TakeOff\ninitialSpeed
+      = 180\ndefaultNavSpeed = 180\ndefaultOrbitPoint = 2\ndefaultPath = null\norbitAltitude
+      = 3000\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\nequips = gau-8;hellfirex4;h70-4x4;h70-4x4;hellfirex4;;;\n}\n}\nUnitSpawner\n{\nunitName
+      = AV-42C\nglobalPosition = (27246.263671875, 19.509765625, -6983.96484375)\nunitInstanceID
+      = 48\nunitID = AV-42CAI\nrotation = (6.335029E-06, 140.9824, 1.017777E-12)\nspawnFlags
+      = carrier;\nUnitFields\n{\nunitGroup = Allied:Alpha\ndefaultBehavior = TakeOff\ninitialSpeed
+      = 180\ndefaultNavSpeed = 180\ndefaultOrbitPoint = 2\ndefaultPath = null\norbitAltitude
+      = 3000\nfuel = 100\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\n}\n}\nUnitSpawner\n{\nunitName = Cruiser\nglobalPosition = (26869.7197265625,
+      -5, -6721.8359375)\nunitInstanceID = 49\nunitID = EscortCruiser\nrotation =
+      (0, 84.75917, 0)\nspawnFlags = \nUnitFields\n{\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\nunitGroup = Allied:Charlie\n}\n}\nUnitSpawner\n{\nunitName
+      = Cruiser\nglobalPosition = (26931.275390625, -5, -7406.3828125)\nunitInstanceID
+      = 50\nunitID = EscortCruiser\nrotation = (0, 84.75917, 0)\nspawnFlags = \nUnitFields\n{\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\nunitGroup = Allied:Charlie\n}\n}\nUnitSpawner\n{\nunitName
+      = Cruiser\nglobalPosition = (26501.4169921875, -5, -6511.0390625)\nunitInstanceID
+      = 51\nunitID = EscortCruiser\nrotation = (0, 84.75917, 0)\nspawnFlags = \nUnitFields\n{\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\nunitGroup = Allied:Charlie\n}\n}\nUnitSpawner\n{\nunitName
+      = Z20x2 Anti-Air Artillery\nglobalPosition = (38167.70703125, 86.064453125,
+      28955.06640625)\nunitInstanceID = 56\nunitID = staticAAA-20x2\nrotation = (0,
+      184.3919, 0)\nspawnFlags = \nUnitFields\n{\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName = MPA-155\nglobalPosition
+      = (33695.5625, 20.013671875, 32823.52734375)\nunitInstanceID = 57\nunitID =
+      Artillery\nrotation = (359.3251, 175.9844, 0.01187774)\nspawnFlags = \nUnitFields\n{\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName = MPA-155\nglobalPosition
+      = (33679.087890625, 20.3115234375, 32796.97265625)\nunitInstanceID = 58\nunitID
+      = Artillery\nrotation = (358.8823, 175.9929, 359.5473)\nspawnFlags = \nUnitFields\n{\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName = MPA-155\nglobalPosition
+      = (33656.376953125, 20.763671875, 32762.3828125)\nunitInstanceID = 59\nunitID
+      = Artillery\nrotation = (358.846, 175.9932, 359.5498)\nspawnFlags = \nUnitFields\n{\nbehavior
+      = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName = Infantry MANPADS\nglobalPosition
+      = (22467.764038085938, 15.04296875, 31787.1796875)\nunitInstanceID = 60\nunitID
+      = EnemySoldierMANPAD\nrotation = (358.7084, 216.1237, 358.7014)\nspawnFlags
+      = \nUnitFields\n{\nbehavior = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Infantry\nglobalPosition = (22473.44287109375, 15.615234375, 31768.79296875)\nunitInstanceID
+      = 61\nunitID = EnemySoldier\nrotation = (358.7304, 216.1233, 358.8423)\nspawnFlags
+      = \nUnitFields\n{\nbehavior = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\nUnitSpawner\n{\nunitName
+      = Infantry\nglobalPosition = (22471.849609375, 15.9912109375, 31751.55859375)\nunitInstanceID
+      = 62\nunitID = EnemySoldier\nrotation = (359.2344, 216.1163, 359.21)\nspawnFlags
+      = \nUnitFields\n{\nbehavior = Parked\ndefaultPath = null\nwaypoint = null\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\n}\n}\n}\nPATHS\n{\nPATH\n{\nid
+      = 0\nname = EFighterPath\nloop = True\npoints = (40552.6328125, 4591.46484375,
+      52869.96875);(13348.44921875, 4591.46484375, 56410.6015625);(-4692.734375,
+      4591.46484375, 40642.40625);(-715.1328125, 4591.46484375, 21881.7109375);(45352.78515625,
+      4591.46484375, 19437.98828125);(70369.8046875, 4591.46484375, 33586.3125);\n}\n}\nWAYPOINTS\n{\nWAYPOINT\n{\nid
+      = 0\nname = SouthCityWP\nglobalPoint = (31645.312828063965, 0, 28557.2412109375)\n}\nWAYPOINT\n{\nid
+      = 1\nname = EnemyShipsWP\nglobalPoint = (51966.49072265625, -4.99993896484375,
+      30124.836334228516)\n}\nWAYPOINT\n{\nid = 2\nname = ECharlieWpt\nglobalPoint
+      = (33147.369873046875, 3436.71044921875, 18649.9990234375)\n}\nWAYPOINT\n{\nid
+      = 3\nname = Carrier Orbit\nglobalPoint = (27350.347808837891, -4.9995193481445313,
+      -7120.4209671020508)\n}\nWAYPOINT\n{\nid = 4\nname = CarrierMoveWpt\nglobalPoint
+      = (44086.880859375, -5, -8619.2255859375)\n}\n}\nUNITGROUPS\n{\nALLIED\n{\nAlpha
+      = 2;52;53;3;55;54;47;48;\nCharlie = 1;29;49;50;51;\n}\nENEMY\n{\nAlpha = 2;12;13;15;19;\nMike
+      = 2;25;26;27;28;\nCharlie = 2;40;41;42;43;\nBravo = 1;20;21;22;23;24;\n}\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName
+      = Allied fighter event\ngroupID = 1\nbeginImmediately = True\ninitialDelay
+      = 0\nTimedEventInfo\n{\neventName = Join on player\ntime = 60\nEventTarget\n{\ntargetType
+      = UnitGroup\ntargetID = 100\neventName = Form On Pilot\nmethodName = FormOnPilot\nParamInfo\n{\ntype
+      = UnitReference\nvalue = 3\nname = Target Leader\nParamAttrInfo\n{\ntype =
+      PilotUnitFilter\ndata = null\n}\nParamAttrInfo\n{\ntype = TeamOptions\ndata
+      = SameTeam\n}\n}\n}\n}\n}\nTimedEventGroup\n{\ngroupName = ShipsEvents\ngroupID
+      = 2\nbeginImmediately = True\ninitialDelay = 0\nTimedEventInfo\n{\neventName
+      = MoveCarrierGroup\ntime = 0\nEventTarget\n{\ntargetType = UnitGroup\ntargetID
+      = 102\neventName = Move To\nmethodName = MoveTo\nParamInfo\n{\ntype = Waypoint\nvalue
+      = 4\nname = waypoint\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\n}\nOBJECTIVES\n{\nObjective\n{\nobjectiveName
+      = Destroy Radars 1\nobjectiveInfo = Destroy the enemy fire control radars around
+      south city.\nobjectiveID = 0\nrequired = True\ncompletionReward = 0\nwaypoint
+      = 0\nautoSetWaypoint = False\nstartMode = Immediate\nobjectiveType = Destroy\nstartEvent\n{\nEventInfo\n{\neventName
+      = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName
+      = Completed Event\n}\n}\nfields\n{\ntargets = 0;2;7;\nminRequired = 3\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = Destroy Ships\nobjectiveInfo
+      = Destroy the naval group to the east.\nobjectiveID = 1\nrequired = True\ncompletionReward
+      = 0\nwaypoint = 1\nautoSetWaypoint = False\nstartMode = Immediate\nobjectiveType
+      = Destroy\nstartEvent\n{\nEventInfo\n{\neventName = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName
+      = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName = Completed
+      Event\n}\n}\nfields\n{\ntargets = 20;21;22;23;24;\nminRequired = 5\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = CAP\nobjectiveInfo
+      = Search for and destroy enemy fighters.\nobjectiveID = 2\nrequired = True\ncompletionReward
+      = 0\nwaypoint = null\nautoSetWaypoint = False\nstartMode = Immediate\nobjectiveType
+      = Destroy\nstartEvent\n{\nEventInfo\n{\neventName = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName
+      = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName = Completed
+      Event\n}\n}\nfields\n{\ntargets = 43;42;41;40;19;15;13;12;\nminRequired = 8\nperUnitReward
+      = 0\nfullCompleteBonus = 0\n}\n}\nObjective\n{\nobjectiveName = RTB\nobjectiveInfo
+      = Return to the carrier.\nobjectiveID = 3\nrequired = True\ncompletionReward
+      = 0\nwaypoint = unit:29\nautoSetWaypoint = True\nstartMode = Final\nobjectiveType
+      = Land\nstartEvent\n{\nEventInfo\n{\neventName = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName
+      = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName = Completed
+      Event\n}\n}\nfields\n{\nradius = 1000\n}\n}\n}\nStaticObjects\n{\n}\nBriefing\n{\nBRIEFING_NOTE\n{\ntext
+      = Several enemy air, land, and naval units are scattered around the island.///nComplete
+      each of the mission objectives and return to the carrier.\nimagePath = Example\\strikeFighter.jpg\naudioClipPath
+      = \n}\nBRIEFING_NOTE\n{\ntext = You may need to return to the carrier to refuel
+      and rearm during the mission.\nimagePath = Example\\missionThumbnail.jpg\naudioClipPath
+      = \n}\n}\nResourceManifest\n{\n0 = Example\\strikeFighter.jpg\n1 = Example\\missionThumbnail.jpg\n}\n}\n"
+    image: {fileID: 2800000, guid: d05b0f9a53494ac49bc475a7c57d48c9, type: 3}
+    images:
+    - {fileID: 2800000, guid: 2a2019fa0fae50e4e9f0123d5e22372f, type: 3}
+    - {fileID: 2800000, guid: cee2e6627c020744e87ce3e284902176, type: 3}
+    imagePaths:
+    - Example\strikeFighter.jpg
+    - Example\missionThumbnail.jpg
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  - scenarioID: fa26Refuel
+    scenarioConfig: "CustomScenario\n{\ngameVersion = 0.1.0p13\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 4\nscenarioName = FA-26 Aerial Refuel Practice\nscenarioID = fa26Refuel\nscenarioDescription
+      = Practice aerial refuelling.\nmapID = map_akutan\nvehicle = F/A-26B\nallowedEquips
+      = fa26_droptank;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;\nforcedEquips
+      = ;;;;;;;;;;;;;;;\nforceEquips = False\nnormForcedFuel = 1\nequipsConfigurable
+      = True\nbaseBudget = 100000\nisTraining = False\nrtbWptID = \nrefuelWptID =
+      unit:0\nenvName = day\nselectableEnv = True\nqsMode = Anywhere\nqsLimit = -1\nUNITS\n{\nUnitSpawner\n{\nunitName
+      = KC-49\nglobalPosition = (30016.84375, 3448.8125, 22904.07421875)\nunitInstanceID
+      = 0\nunitID = KC-49\nrotation = (0, 86.58763, 0)\nspawnChance = 100\nlastValidPlacement
+      = (30016.84375, 3448.8125, 22904.07421875)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = null\ndefaultBehavior = Orbit\ninitialSpeed = 200\ndefaultOrbitPoint = 0\ndefaultPath
+      = null\norbitAltitude = 3500\nfuelPercent = 100\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ndefaultNavSpeed = 160\nfuel = 100\n}\n}\nUnitSpawner\n{\nunitName
+      = Player\nglobalPosition = (28325.740234375, 3166.08837890625, 22393.4755859375)\nunitInstanceID
+      = 1\nunitID = PlayerSpawn\nrotation = (0, 72.00014, 0)\nspawnChance = 100\nlastValidPlacement
+      = (28325.740234375, 3166.08837890625, 22393.4755859375)\nspawnFlags = \nUnitFields\n{\nstartMode
+      = FlightReady\ninitialSpeed = 200\nunitGroup = null\n}\n}\n}\nPATHS\n{\n}\nWAYPOINTS\n{\nWAYPOINT\n{\nid
+      = 0\nname = RefuelOrbitPt\nglobalPoint = (33399.388671875, 3121.210205078125,
+      35978.517578125)\n}\n}\nUNITGROUPS\n{\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName
+      = SetKCSpeed\ngroupID = 0\nbeginImmediately = True\ninitialDelay = 0\nTimedEventInfo\n{\neventName
+      = New Timed Event\ntime = 0\nEventTarget\n{\ntargetType = Unit\ntargetID =
+      0\neventName = Orbit Waypoint\nmethodName = SetOrbitNow\nParamInfo\n{\ntype
+      = Waypoint\nvalue = 0\nname = Waypoint\n}\nParamInfo\n{\ntype = System.Single\nvalue
+      = 13000\nname = Radius\nParamAttrInfo\n{\ntype = MinMax\ndata = (1000,25000)\n}\n}\nParamInfo\n{\ntype
+      = System.Single\nvalue = 3454\nname = Altitude\nParamAttrInfo\n{\ntype = MinMax\ndata
+      = (1500,8000)\n}\n}\n}\nEventTarget\n{\ntargetType = Unit\ntargetID = 0\neventName
+      = Set Nav Speed\nmethodName = SetNavSpeed\nParamInfo\n{\ntype = System.Single\nvalue
+      = 195\nname = Airspeed\nParamAttrInfo\n{\ntype = MinMax\ndata = (60,600)\n}\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\n}\nOBJECTIVES\n{\nObjective\n{\nobjectiveName
+      = Refuel\nobjectiveInfo = Refuel without landing. Fuel must be below 95% for
+      the tanker to serve.\nobjectiveID = 0\norderID = 0\nrequired = True\ncompletionReward
+      = 0\nwaypoint = null\nautoSetWaypoint = False\nstartMode = Immediate\nobjectiveType
+      = Conditional\nstartEvent\n{\nEventInfo\n{\neventName = Start Event\n}\n}\nfailEvent\n{\nEventInfo\n{\neventName
+      = Failed Event\n}\n}\ncompleteEvent\n{\nEventInfo\n{\neventName = Completed
+      Event\n}\n}\nfields\n{\nsuccessConditional = null\nfailConditional = 0\n}\n}\n}\nStaticObjects\n{\n}\nConditionals\n{\nCONDITIONAL\n{\nid
+      = 0\noutputNodePos = (0, 0, 0)\nroot = 0\nCOMP\n{\nid = 0\ntype = SCCUnit\nuiPos
+      = (-289, 45, 0)\nunit = 1\nmethodName = SCC_Landed\nmethodParameters = null\nisNot
+      = False\n}\n}\nCONDITIONAL\n{\nid = 1\noutputNodePos = (0, 0, 0)\nroot = 0\nCOMP\n{\nid
+      = 0\ntype = SCCUnit\nuiPos = (-334, 34, 0)\nunit = 1\nmethodName = SCC_FuelLevel\nmethodParameters
+      = Less_Than;95;\nisNot = False\n}\n}\nCONDITIONAL\n{\nid = 2\noutputNodePos
+      = (0, 0, 0)\nroot = 0\nCOMP\n{\nid = 0\ntype = SCCUnit\nuiPos = (-326, 41,
+      0)\nunit = 1\nmethodName = SCC_FuelLevel\nmethodParameters = Greater_Than;95;\nisNot
+      = False\n}\n}\n}\nConditionalActions\n{\n}\nEventSequences\n{\nSEQUENCE\n{\nid
+      = 0\nsequenceName = Refuel Objective Sequence\nstartImmediately = True\nEVENT\n{\nconditional
+      = 1\ndelay = 0\nnodeName = wait for fuel below 95%\nexitConditional = 2\nEventInfo\n{\neventName
+      = \n}\n}\nEVENT\n{\ndelay = 0\nnodeName = Complete\nEventInfo\n{\neventName
+      = \nEventTarget\n{\ntargetType = Objective\ntargetID = 0\neventName = Complete
+      Objective\nmethodName = CompleteObjective\n}\n}\n}\n}\n}\nBASES\n{\nBaseInfo\n{\nid
+      = 0\noverrideBaseName = \nbaseTeam = Allied\n}\n}\nGlobalValues\n{\n}\nBriefing\n{\nBRIEFING_NOTE\n{\ntext
+      = Practice aerial refueling with the F/A-26B.  Make sure to start off with
+      a partially empty fuel tank.  Otherwise, the tanker will not lower to fuel
+      boom.\nimagePath = Example\\fa26andTanker.jpg\naudioClipPath = \n}\n}\nResourceManifest\n{\n0
+      = Example\\fa26andTanker.jpg\n}\n}\n"
+    image: {fileID: 2800000, guid: a2397ceabaee2cb4abac8c10119f75b0, type: 3}
+    images:
+    - {fileID: 2800000, guid: 348e1029f90ff6a479d4a6f42967e50e, type: 3}
+    imagePaths:
+    - Example\fa26andTanker.jpg
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  - scenarioID: Free Flight
+    scenarioConfig: "CustomScenario\n{\ngameVersion = 0.1.0p13\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 0\nscenarioName = Free Flight\nscenarioID = Free Flight\nscenarioDescription
+      = No enemies or objectives.  Just fly around and have fun!\nmapID = map_akutan\nvehicle
+      = F/A-26B\nallowedEquips = fa26_droptank;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;\nforcedEquips
+      = ;;;;;;;;;;;;;;;;\nforceEquips = False\nnormForcedFuel = 1\nequipsConfigurable
+      = True\nbaseBudget = 100000\nisTraining = False\nrtbWptID = unit:1\nrefuelWptID
+      = unit:3\nenvName = day\nselectableEnv = True\nqsMode = Anywhere\nqsLimit =
+      -1\nUNITS\n{\nUnitSpawner\n{\nunitName = Player\nglobalPosition = (29117.7998046875,
+      0.12939453125, 32361.24609375)\nunitInstanceID = 0\nunitID = PlayerSpawn\nrotation
+      = (4.950055E-06, 289, -9.131184E-06)\nspawnChance = 100\nlastValidPlacement
+      = (29117.7998046875, 0.12939453125, 32361.24609375)\nspawnFlags = \nUnitFields\n{\nstartMode
+      = Cold\ninitialSpeed = 0\nunitGroup = null\n}\n}\nUnitSpawner\n{\nunitName
+      = Aircraft Carrier\nglobalPosition = (23350.0859375, -5, 23236.712646484375)\nunitInstanceID
+      = 1\nunitID = AlliedCarrier\nrotation = (0, 100.7735, 0)\nspawnChance = 100\nlastValidPlacement
+      = (23350.0859375, -5, 23236.712646484375)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = Allied:Alpha\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart
+      = True\ndefaultBehavior = Parked\ndefaultWaypoint = null\ndefaultPath = null\nhullNumber
+      = 0\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName = Cruiser\nglobalPosition
+      = (22967.5439453125, -5, 23519.55859375)\nunitInstanceID = 2\nunitID = EscortCruiser\nrotation
+      = (0, 100.7735, 0)\nspawnChance = 100\nlastValidPlacement = (22967.5439453125,
+      -5, 23519.55859375)\nspawnFlags = \nUnitFields\n{\nunitGroup = Allied:Alpha\nengageEnemies
+      = True\ndetectionMode = Default\nspawnOnStart = True\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\ninvincible = False\n}\n}\nUnitSpawner\n{\nunitName
+      = KC-49\nglobalPosition = (14251.53515625, 3495, 27639.2060546875)\nunitInstanceID
+      = 3\nunitID = KC-49\nrotation = (0, 110.7498, 0)\nspawnChance = 100\nlastValidPlacement
+      = (14251.53515625, 3495, 27639.2060546875)\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = null\ndefaultBehavior = Path\ninitialSpeed = 180\ndefaultNavSpeed = 180\ndefaultOrbitPoint
+      = null\ndefaultPath = 1\norbitAltitude = 3500\nfuel = 100\nautoRefuel = True\nengageEnemies
+      = False\ndetectionMode = Default\nspawnOnStart = True\n}\n}\n}\nPATHS\n{\nPATH\n{\nid
+      = 0\nname = carrierPath\nloop = True\npoints = (23706, -5, 23223.1171875);(43607.4140625,
+      -5, 20636.783203125);(58940.7734375, -5, 38384.91796875);(21775.60546875, -5,
+      59483.67578125);(11066.001953125, -5, 32585.134765625);\npathMode = Smooth\n}\nPATH\n{\nid
+      = 1\nname = refuelPath\nloop = True\npoints = (-5165.51171875, 3495, 28206.8359375);(57382.6015625,
+      3495.00048828125, 27267.03125);(56966.30078125, 3495, 38883.80078125);(-4901.71875,
+      3495, 45384.0390625);(-16291.0078125, 3495, 37478.8203125);\npathMode = Smooth\n}\n}\nWAYPOINTS\n{\n}\nUNITGROUPS\n{\nALLIED\n{\nAlpha
+      = 1;1;2;\n}\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName = StartEvents\ngroupID
+      = 0\nbeginImmediately = True\ninitialDelay = 0\nTimedEventInfo\n{\neventName
+      = MoveCarrier\ntime = 0\nEventTarget\n{\ntargetType = UnitGroup\ntargetID =
+      100\neventName = Move Path\nmethodName = MovePath\nParamInfo\n{\ntype = FollowPath\nvalue
+      = 0\nname = path\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\n}\nOBJECTIVES\n{\n}\nStaticObjects\n{\n}\nConditionals\n{\n}\nConditionalActions\n{\n}\nEventSequences\n{\n}\nBASES\n{\nBaseInfo\n{\nid
+      = 0\noverrideBaseName = \nbaseTeam = Allied\n}\n}\nGlobalValues\n{\n}\nBriefing\n{\n}\n}\n"
+    image: {fileID: 2800000, guid: f624baf34452eec4f9a8136c04cc779e, type: 3}
+    images: []
+    imagePaths: []
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  - scenarioID: freeFlight2
+    scenarioConfig: "CustomScenario\n{\ngameVersion = 1.4.4p4\ncampaignID = fa26bFreeFlight\ncampaignOrderIdx
+      = 1\nscenarioName = Free Flight 2\nscenarioID = freeFlight2\nscenarioDescription
+      = Free flight in the twin-city bay map. No enemies or objectives.\nmapID =
+      e_coastBay\nvehicle = F/A-26B\nmultiplayer = False\nallowedEquips = fa26_droptank;fa26_droptankXL;fa26-cft;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;fa26_harmx1;fa26_harmx1dpMount;fa26_sidearmx1;fa26_sidearmx2;fa26_sidearmx3;af_amraamRailx2;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;fa26_aim9e;fa26_aim9ex2;fa26_aim7;fa26_aim7Rail;\nforcedEquips
+      = ;;;;;;;;;;;;;;;;\nforceEquips = False\nnormForcedFuel = 1\nequipsConfigurable
+      = True\nbaseBudget = 200000\nisTraining = False\nrtbWptID = wpt:3\nrefuelWptID
+      = unit:27\nenvName = day\nselectableEnv = True\nqsMode = Anywhere\nqsLimit
+      = -1\nUNITS\n{\nUnitSpawner\n{\nunitName = Player\nglobalPosition = (62105.163269042969,
+      112.65374755859375, 63478.548461914063)\nunitInstanceID = 0\nunitID = PlayerSpawn\nrotation
+      = (3.229481E-06, 237.8789, -1.412452E-05)\nspawnChance = 100\nlastValidPlacement
+      = (62105.163269042969, 112.65374755859375, 63478.548461914063)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nstartMode = Cold\ninitialSpeed = 0\nunitGroup
+      = null\n}\n}\nUnitSpawner\n{\nunitName = Cruiser\nglobalPosition = (64834.096160888672,
+      -5, 59021.862152099609)\nunitInstanceID = 30\nunitID = EscortCruiser\nrotation
+      = (0, 88.36604, 0)\nspawnChance = 100\nlastValidPlacement = (64834.096160888672,
+      -5, 59021.862152099609)\neditorPlacementMode = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup
+      = null\ndefaultBehavior = Parked\ndefaultWaypoint = null\ndefaultPath = null\nhullNumber
+      = 88\nengageEnemies = True\ndetectionMode = Default\nspawnOnStart = True\ninvincible
+      = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName = Cruiser\nglobalPosition
+      = (64836.162414550781, -5, 59288.193298339844)\nunitInstanceID = 29\nunitID
+      = EscortCruiser\nrotation = (0, 88.36604, 0)\nspawnChance = 100\nlastValidPlacement
+      = (64836.162414550781, -5, 59288.193298339844)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = null\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 56\nengageEnemies = True\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName
+      = Aircraft Carrier\nglobalPosition = (55039.259765625, -5, 50424.189453125)\nunitInstanceID
+      = 24\nunitID = AlliedCarrier\nrotation = (0, 106.4044, 0)\nspawnChance = 100\nlastValidPlacement
+      = (55039.259765625, -5, 50424.189453125)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Allied:Mike\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName
+      = Cruiser\nglobalPosition = (54522.431640625, -5, 50785.99169921875)\nunitInstanceID
+      = 25\nunitID = EscortCruiser\nrotation = (0, 117.6646, 0)\nspawnChance = 100\nlastValidPlacement
+      = (54522.431640625, -5, 50785.99169921875)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Allied:Mike\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName
+      = Cruiser\nglobalPosition = (54278.888977050781, -5, 50329.998626708984)\nunitInstanceID
+      = 26\nunitID = EscortCruiser\nrotation = (0, 117.6646, 0)\nspawnChance = 100\nlastValidPlacement
+      = (54278.888977050781, -5, 50329.998626708984)\neditorPlacementMode = Unknown\nspawnFlags
+      = \nUnitFields\n{\nunitGroup = Allied:Mike\ndefaultBehavior = Parked\ndefaultWaypoint
+      = null\ndefaultPath = null\nhullNumber = 0\nengageEnemies = False\ndetectionMode
+      = Default\nspawnOnStart = True\ninvincible = False\ncarrierSpawns = \n}\n}\nUnitSpawner\n{\nunitName
+      = KC-49\nglobalPosition = (61764.965087890625, 121.19366455078125, 63365.387756347656)\nunitInstanceID
+      = 27\nunitID = KC-49\nrotation = (-1.395213E-05, 150.6255, -3.973422E-06)\nspawnChance
+      = 100\nlastValidPlacement = (61764.965087890625, 121.19366455078125, 63365.387756347656)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\nunitGroup = null\ndefaultBehavior
+      = TakeOff\ninitialSpeed = 200\ndefaultNavSpeed = 200\ndefaultOrbitPoint = 6\ndefaultPath
+      = null\norbitAltitude = 5000\nfuel = 100\nautoRefuel = True\nautoRTB = True\nrtbDestination
+      = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart = True\ninvincible
+      = False\n}\n}\nUnitSpawner\n{\nunitName = E-4 Overlord\nglobalPosition = (61856.617706298828,
+      121.19397735595703, 62276.639863967896)\nunitInstanceID = 28\nunitID = E-4\nrotation
+      = (-3.387986E-06, 58.52274, 1.408734E-05)\nspawnChance = 100\nlastValidPlacement
+      = (61856.617706298828, 121.19397735595703, 62276.639863967896)\neditorPlacementMode
+      = Unknown\nspawnFlags = \nUnitFields\n{\ncommsEnabled = True\nunitGroup = null\ndefaultBehavior
+      = TakeOff\ninitialSpeed = 210\ndefaultNavSpeed = 210\ndefaultOrbitPoint = 7\ndefaultPath
+      = null\norbitAltitude = 6000\nfuel = 100\nautoRefuel = True\nautoRTB = True\ndefaultRadarEnabled
+      = True\nrtbDestination = \nengageEnemies = False\ndetectionMode = Default\nspawnOnStart
+      = True\ninvincible = False\n}\n}\n}\nPATHS\n{\nPATH\n{\nid = 0\nname = bridgeCrossPath\nloop
+      = False\npoints = (59769.359375, 170.603515625, 58160.140625);(59743.27734375,
+      157.5, 58034.01171875);(59569.5234375, 90.962890625, 57489.875);(59448.53125,
+      72.7099609375, 57202.87109375);(59214.77734375, 63.9521484375, 56927.34375);(57978.3203125,
+      113.59765625, 55558.390625);(56407.0234375, 147.328125, 53823.5703125);(54524.90625,
+      154.625, 51776.25390625);(53259.34375, 136.849609375, 50412.10546875);(52420.74609375,
+      111.48828125, 49520.42578125);(51639.53515625, 75.701171875, 48688.11328125);(51070.171875,
+      45.3056640625, 48087.890625);(50955.84375, 40.533203125, 47972.015625);(50912.8125,
+      40.408203125, 47946.73046875);(50851.66015625, 40.4072265625, 47930.87890625);\npathMode
+      = Smooth\n}\nPATH\n{\nid = 1\nname = airTgtPath1\nloop = True\npoints = (82874.1796875,
+      1635.00390625, 68179.234375);(77300.078125, 1635.00390625, 72135.4296875);(75608.171875,
+      1635.00390625, 80007.359375);(75697.6171875, 1635.00390625, 88694.96875);(66239.1953125,
+      1635.00390625, 90522.25);(59868.6328125, 1635.00390625, 96251.859375);(56410.21875,
+      1635.00390625, 98103.15625);(49859.640625, 1635.00390625, 93430.1953125);(45604.48828125,
+      1635.00390625, 85922.671875);(41228.875, 1635.00390625, 77821.1875);(43961.38671875,
+      1635.00390625, 70275.359375);(50620.29296875, 1635.00390625, 71587.7265625);(58258.265625,
+      1635.00390625, 67304.1171875);(64810.3359375, 1635.00390625, 58300.78125);(76508.4296875,
+      1635.00390625, 60201.046875);\npathMode = Smooth\n}\nPATH\n{\nid = 2\nname
+      = airTgtsPath2\nloop = True\npoints = (60864.4375, 7077.833984375, 90993.0859375);(38072.0078125,
+      7077.833984375, 93321.25);(22475.828125, 7077.833984375, 82890.546875);(26325.03125,
+      7077.833984375, 57514.5703125);(45876.28125, 7077.8349609375, 56211.890625);(45809.03125,
+      7077.8349609375, 76697.3671875);(69794.5859375, 7077.8349609375, 72703.265625);\npathMode
+      = Smooth\n}\nPATH\n{\nid = 3\nname = gavPath\nloop = True\npoints = (73299.375,
+      951.796875, 97609.734375);(70815.28125, 951.796875, 93966);(69132.6328125,
+      951.796875, 89596.765625);(65946.9375, 639.7109375, 88472.34375);(63689.5625,
+      639.7109375, 86980.546875);(62585.88671875, 639.7109375, 84578.25);(61183.5390625,
+      639.7109375, 81001.2578125);(60873.72265625, 796.0546875, 76855.1640625);(60015.12109375,
+      483.3671875, 74045.453125);(59213.5546875, 327.0224609375, 72246.34375);(59271.203125,
+      327.0224609375, 71125.234375);(58455.4375, 327.0224609375, 69815.0078125);(57886.359375,
+      327.0224609375, 68919.46875);(56513.09375, 327.0224609375, 68129.765625);(53993.96484375,
+      327.0224609375, 67853.765625);(52554.25, 483.3671875, 65953.5);(54184.4140625,
+      639.7109375, 63142.7734375);(56113.5546875, 483.3671875, 60106.12109375);(57676.5859375,
+      327.0234375, 57820.5);(57665.1796875, 170.6787109375, 56421.375);(56717.6171875,
+      170.6787109375, 55195.91796875);(55157.828125, 170.6787109375, 53373.421875);(53441.3203125,
+      170.6787109375, 51477.93359375);(51631.4140625, 170.6787109375, 49479.3125);(50897.10546875,
+      170.6787109375, 48062.74609375);(52018.6640625, 396.248046875, 46608.1640625);(56417.97265625,
+      396.248046875, 48343.84375);(64758.34375, 396.2490234375, 54430.4921875);(66816.5703125,
+      396.2490234375, 61155.58984375);(71412.359375, 396.2490234375, 70829.203125);(75990.203125,
+      1306.4892578125, 85281.875);(76130.53125, 1449.560546875, 94272.8203125);\npathMode
+      = Smooth\n}\nPATH\n{\nid = 4\nname = carrier path\nloop = False\npoints = (56729.890625,
+      -5, 50061.88671875);(61213.96484375, -5, 48794.0390625);(186342.46875, -5,
+      46740.625);\npathMode = Linear\n}\n}\nWAYPOINTS\n{\nbullseyeID = 5\nWAYPOINT\n{\nid
+      = 0\nname = gavBase\nglobalPoint = (73909.373046875, 706.82373046875, 98383.37890625)\n}\nWAYPOINT\n{\nid
+      = 1\nname = radar obj wp\nglobalPoint = (68446.4833984375, 420.705078125, 89836.072265625)\n}\nWAYPOINT\n{\nid
+      = 2\nname = barton base wp\nglobalPoint = (62504.462646484375, 112.6064453125,
+      62351.030151367188)\n}\nWAYPOINT\n{\nid = 3\nname = danboro base wp\nglobalPoint
+      = (47554.93359375, 231.869140625, 39529.322265625)\n}\nWAYPOINT\n{\nid = 4\nname
+      = winchester base wp\nglobalPoint = (17090.65283203125, 283.39892578125, 92055.5546875)\n}\nWAYPOINT\n{\nid
+      = 5\nname = bullseye\nglobalPoint = (48935.978515625, -5, 63257.43359375)\n}\nWAYPOINT\n{\nid
+      = 6\nname = rf waypoint\nglobalPoint = (73219.1787109375, 4995, 38986.98828125)\n}\nWAYPOINT\n{\nid
+      = 7\nname = awacs wp\nglobalPoint = (55898.570922851563, 5227.697265625, 21608.240234375)\n}\n}\nUNITGROUPS\n{\nALLIED\n{\nMike
+      = 1;24;25;26;\nMike_SETTINGS\n{\nsyncAltSpawns = False\n}\n}\n}\nTimedEventGroups\n{\nTimedEventGroup\n{\ngroupName
+      = Start\ngroupID = 0\nbeginImmediately = True\ninitialDelay = 0\nTimedEventInfo\n{\neventName
+      = Start Events\ntime = 0\nEventTarget\n{\ntargetType = UnitGroup\ntargetID
+      = 112\neventName = Move Path\nmethodName = MovePath\nParamInfo\n{\ntype = FollowPath\nvalue
+      = 4\nname = path\n}\n}\n}\n}\n}\nTRIGGER_EVENTS\n{\nTriggerEvent\n{\nid = 0\nenabled
+      = True\ntriggerType = Conditional\nconditional = 0\neventName = gav takeoff\nEventInfo\n{\neventName
+      = \nEventTarget\n{\ntargetType = Event_Sequences\ntargetID = 0\neventName =
+      Begin\nmethodName = BeginEvent\n}\n}\n}\n}\nOBJECTIVES\n{\n}\nOBJECTIVES_OPFOR\n{\n}\nStaticObjects\n{\nStaticObject\n{\nprefabID
+      = platform1\nid = 0\nglobalPos = (74557.08935546875, 78.5203857421875, 67924.6806640625)\nrotation
+      = (0, 323.5828, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 1\nglobalPos
+      = (74589.207901000977, 78.620389938354492, 67948.36116027832)\nrotation = (0,
+      323.5828, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 2\nglobalPos =
+      (74524.734634399414, 80.719970703125, 67900.35472869873)\nrotation = (0, 323.5828,
+      0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 3\nglobalPos = (74548.625442504883,
+      80.94122314453125, 67867.692413330078)\nrotation = (0, 323.5828, 0)\n}\nStaticObject\n{\nprefabID
+      = platform1\nid = 4\nglobalPos = (53673.194488525391, 2074.026123046875, 87793.194641113281)\nrotation
+      = (0, 21.68459, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 5\nglobalPos
+      = (52250.162902832031, 2080.570556640625, 85062.883972167969)\nrotation = (0,
+      5.205982, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 6\nglobalPos =
+      (79283.097595214844, 1541.333740234375, 86811.559020996094)\nrotation = (0,
+      5.065976, 0)\n}\nStaticObject\n{\nprefabID = platform1\nid = 7\nglobalPos =
+      (74042.642333984375, 706.82373046875, 98416.43017578125)\nrotation = (0, 5.065976,
+      0)\n}\nStaticObject\n{\nprefabID = FarpA\nid = 8\nglobalPos = (73905.638244628906,
+      706.82366943359375, 98490.502746582031)\nrotation = (0, 276.4699, 0)\n}\nStaticObject\n{\nprefabID
+      = Destructible_OilRig\nid = 9\nglobalPos = (73714.814453125, -5, 45225.109375)\nrotation
+      = (0, 150.6255, 0)\n}\nStaticObject\n{\nprefabID = Destructible_OilRig\nid
+      = 10\nglobalPos = (81224.435546875, -5, 49945.7607421875)\nrotation = (0, 105.6291,
+      0)\n}\nStaticObject\n{\nprefabID = Destructible_OilRig\nid = 11\nglobalPos
+      = (104908.123046875, -5, 41845.416015625)\nrotation = (0, 77.81384, 0)\n}\n}\nConditionals\n{\nCONDITIONAL\n{\nid
+      = 0\noutputNodePos = (325, 55, 0)\nroot = 1\nCOMP\n{\nid = 2\ntype = SCCUnit\nuiPos
+      = (-595, 258, 0)\nunit = 0\nmethodName = SCC_NearWaypoint\nmethodParameters
+      = 0;6500;\nisNot = False\n}\nCOMP\n{\nid = 1\ntype = SCCOr\nuiPos = (-193,
+      64, 0)\nfactors = 2;3;4;5;\n}\nCOMP\n{\nid = 3\ntype = SCCUnit\nuiPos = (-597,
+      71, 0)\nunit = 0\nmethodName = SCC_IsLockingTarget\nmethodParameters = 21;TGP;\nisNot
+      = False\n}\nCOMP\n{\nid = 4\ntype = SCCUnit\nuiPos = (-592.3677, -119.6729,
+      0)\nunit = 0\nmethodName = SCC_IsLockingTarget\nmethodParameters = 23;TGP;\nisNot
+      = False\n}\nCOMP\n{\nid = 5\ntype = SCCUnit\nuiPos = (-574.1705, -342.5246,
+      0)\nunit = 20\nmethodName = SC_IsAlive\nmethodParameters = null\nisNot = True\n}\n}\nCONDITIONAL\n{\nid
+      = 1\noutputNodePos = (0, 0, 0)\nroot = 1\nCOMP\n{\nid = 1\ntype = SCCUnitGroup\nuiPos
+      = (-369, 37, 0)\nunitGroup = null\nmethodName = AllAirborne\nmethodParameters
+      = null\nisNot = False\n}\n}\n}\nConditionalActions\n{\n}\nEventSequences\n{\nSEQUENCE\n{\nid
+      = 0\nsequenceName = gav sequence\nstartImmediately = False\nEVENT\n{\ndelay
+      = 0\nnodeName = take off 1\nEventInfo\n{\neventName = \n}\n}\nEVENT\n{\ndelay
+      = 6\nnodeName = take off 2\nexitConditional = 1\nEventInfo\n{\neventName =
+      \n}\n}\nEVENT\n{\ndelay = 5\nnodeName = fly path\nEventInfo\n{\neventName =
+      \n}\n}\n}\n}\nBASES\n{\nBaseInfo\n{\nid = 0\noverrideBaseName = \nbaseTeam
+      = Allied\n}\nBaseInfo\n{\nid = 8\noverrideBaseName = \nbaseTeam = Allied\n}\nBaseInfo\n{\nid
+      = 9\noverrideBaseName = \nbaseTeam = Allied\n}\n}\nGlobalValues\n{\n}\nBriefing\n{\nBRIEFING_NOTE\n{\ntext
+      = Just fly around and have fun!\nimagePath = Example\\26b\\targetPractice\\26bCity.png\naudioClipPath
+      = \n}\n}\nResourceManifest\n{\n0 = Example\\26b\\targetPractice\\26bCity.png\n}\n}\n"
+    image: {fileID: 2800000, guid: a2a28c87f2ad5074885a03060b05862e, type: 3}
+    images:
+    - {fileID: 2800000, guid: 8a41432654f6ad74dade66948eefec4b, type: 3}
+    imagePaths:
+    - Example\26b\targetPractice\26bCity.png
+    audioClips: []
+    audioClipPaths: []
+    videoClips: []
+    videoClipPaths: []
+  vtMaps:
+  - {fileID: 11400000, guid: 4c4921505a61280479df3ec3929e93b1, type: 2}
+  campaignLivery: {fileID: 0}
+  campaignLiveryOpFor: {fileID: 0}
+  perVehicleLiveries: []
+  isStandaloneScenarios: 1
+  requireDLCs: 

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ace4c1eeeb97de4dab93ad2b55e9472, type: 3}
+  m_Name: CockpitFont
+  m_EditorClassIdentifier: 
+  fontTexture: {fileID: 2800000, guid: 12866e78fa12e3e4d86ba3549e5e4292, type: 3}
+  emissionTexture: {fileID: 2800000, guid: 48aa5e0426288704eb5560ffa7fe43d4, type: 3}
+  spaceWidth: 0.5
+  chars:
+  - character: a
+    uvPos: {x: 0, y: 0.875}
+    uvSize: {x: 0.09375, y: 0.125}
+  - character: b
+    uvPos: {x: 0.125, y: 0.875}
+    uvSize: {x: 0.084375, y: 0.125}
+  - character: d
+    uvPos: {x: 0.375, y: 0.875}
+    uvSize: {x: 0.08125, y: 0.125}
+  - character: g
+    uvPos: {x: 0.75, y: 0.875}
+    uvSize: {x: 0.096875, y: 0.125}
+  - character: h
+    uvPos: {x: 0.875, y: 0.875}
+    uvSize: {x: 0.0875, y: 0.125}
+  - character: c
+    uvPos: {x: 0.25, y: 0.875}
+    uvSize: {x: 0.096875, y: 0.125}
+  - character: e
+    uvPos: {x: 0.5, y: 0.875}
+    uvSize: {x: 0.077, y: 0.125}
+  - character: f
+    uvPos: {x: 0.625, y: 0.875}
+    uvSize: {x: 0.075, y: 0.125}
+  chrCount: 0

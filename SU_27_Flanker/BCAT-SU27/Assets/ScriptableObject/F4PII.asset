@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a5f724ee95b6d4bac281dd9a3c1a84, type: 3}
+  m_Name: F4PII
+  m_EditorClassIdentifier: 
+  vehicleName: F-4 Phantom II
+  resourcePath: Vehicles/F4PII
+  readyToFly: 1
+  description: The McDonnell Douglas F-4 Phantom II is an American tandem two-seat,
+    twin-engine, all-weather, long-range supersonic jet interceptor and fighter-bomber
+    originally developed by McDonnell Aircraft for the United States Navy. Proving
+    highly adaptable, it entered service with the Navy in 1961 before it was adopted
+    by the United States Marine Corps and the United States Air Force, and by the
+    mid-1960s it had become a major part of their air arms. Phantom production ran
+    from 1958 to 1981 with a total of 5,195 aircraft built, making it the most produced
+    American supersonic military aircraft in history, and cementing its position
+    as a signature combat aircraft of the Cold War.
+  nickname: F-4
+  vehicleImage: {fileID: 2800000, guid: 7f0524745711a3e4d84f6751564c753c, type: 3}
+  vehiclePrefab: {fileID: 7945973355896111710, guid: b7d83c4fd181b144e9918af879d38b90, type: 3}
+  loadoutSpawnOffset: {x: 0, y: 2.65, z: -7.02}
+  playerSpawnOffset: {x: 0, y: 2.66, z: 0}
+  spawnPitch: 0
+  loadoutConfiguratorPrefab: {fileID: 1523651223817002, guid: 62e499d5071e35b43b6ac78ae340b870, type: 3}
+  uiOnlyConfiguratorPrefab: {fileID: 5452194177057080605, guid: d5521f25f715f344a830f7894a30ed97, type: 3}
+  hardpointCount: 12
+  maxSlots: 1
+  defaultSlots: 1
+  dlc: 0
+  dlcID: 0
+  dlcPrefabName: 
+  allEquipPrefabs:
+  - {fileID: 7912741173006672426, guid: 270227f54a480824fb63a3ec063f897c, type: 3}
+  - {fileID: 1092646804117233, guid: 2b1306aa50d2332498f4283eb80920a2, type: 3}
+  - {fileID: 7912741173006672426, guid: 10d3c372e10d6c54c973b9b2359a04f4, type: 3}
+  - {fileID: 1092646804117233, guid: 1001b9b19cc88da41a1d00d10eae507b, type: 3}
+  - {fileID: 7912741173006672426, guid: c47d4ae2c3c34be4dbfcb36741c49ccc, type: 3}
+  - {fileID: 1092646804117233, guid: 4af5006c4d854f14d9c337c8bd38fb33, type: 3}
+  - {fileID: 1628650025412031, guid: 1a01163dc58820140bdd197c2cd90641, type: 3}
+  - {fileID: 1635243908403360, guid: 5f4a346ad3567244fac641ae808835d0, type: 3}
+  - {fileID: 1065257867982988, guid: 0c7ed81842e03c44d92f90f79fac54f1, type: 3}
+  - {fileID: 1065257867982988, guid: 4a08fa585f5620d4f9f3f87402e2c039, type: 3}
+  - {fileID: 1000870896244739, guid: c27e391182aa5aa48b8e8bca1991d8f6, type: 3}
+  - {fileID: 1420412109406772, guid: 38cb58177a4b70645a5ca28f7749dccc, type: 3}
+  - {fileID: 1080638938887228, guid: 94b3c5d016c68f741affde0e13ac738e, type: 3}
+  - {fileID: 1197431003935914, guid: b950da4eb42d12b4598204c9fd6ac97e, type: 3}
+  - {fileID: 5837720030155474547, guid: 9f168acd4e5b4f146a93a9bb2418c3c5, type: 3}
+  - {fileID: 1937548658101806, guid: 4585eefdb620c4f42a6b23d329e91f1d, type: 3}
+  - {fileID: 1937548658101806, guid: 757031da9aa0eaf4c800e95b4fcc1ccc, type: 3}
+  - {fileID: 1937548658101806, guid: 37efb9c474b107d4f9bcb08ca511d976, type: 3}
+  - {fileID: 489827483584006710, guid: a9d8f05853c7cd744a456591a2801a1e, type: 3}
+  - {fileID: 1312293294673102, guid: eb7373c9d8bf4974d8d22dd09ab11402, type: 3}
+  - {fileID: 1851938698709317, guid: 11a16a2d4b224e045893b6c468fc53c0, type: 3}
+  - {fileID: 1609471672691783, guid: d42cb3027bc333745b45b995f1199514, type: 3}
+  - {fileID: 4689480738726470714, guid: 7dd0ab126f2db1a49a5bbe20d93fd86f, type: 3}
+  - {fileID: 1736166785724625, guid: c58ec3ccdd589fc41a37893303fb2ca7, type: 3}
+  - {fileID: 1040064831701940, guid: 4ddde2fede0f917408f765dae617b3d4, type: 3}
+  - {fileID: 1172850694100183, guid: f18fd9ca45c71f848bac0432cc3631d0, type: 3}
+  - {fileID: 5967943150213646277, guid: 58e3e02b3d01dce458c175bf66815054, type: 3}
+  - {fileID: 1529144101003075, guid: aa9d007c6cd90a94a959776d778ff75a, type: 3}
+  - {fileID: 1851938698709317, guid: a4b93b0462d65af479023ef524d012a0, type: 3}
+  - {fileID: 1049353534626602, guid: 9e148393157bcf145b6a963c77ed80db, type: 3}
+  - {fileID: 1787991336573433, guid: 2fa52744ebc7e3b4684637a14608bcf0, type: 3}
+  - {fileID: 1309419853778920, guid: 5fdcdcb34db8318478d3b844acbdbc2c, type: 3}
+  - {fileID: 1717010563709773, guid: b0453361144ce2448ae57bb07f3ad6dc, type: 3}
+  - {fileID: 1194274915337925, guid: 678aec8f102f8f245a3066460b769ea2, type: 3}
+  - {fileID: 1443461133985303, guid: 376d0d6f3ebf0ab41bd9eb0c3699745e, type: 3}
+  - {fileID: 1698636330184034, guid: 4931ebfddf01de745b176c25f252a408, type: 3}
+  - {fileID: 1030240687333475, guid: 453d1b4946c2d0b45a0e3c98f8cf924d, type: 3}
+  - {fileID: 1136373245740158, guid: c60067ea37225d547a3722a62b9e7136, type: 3}
+  - {fileID: 1000870896244739, guid: a6ac14e7c5b7774489cdc8d910870a2d, type: 3}
+  - {fileID: 1000870896244739, guid: b30525891cd2ad245b6a35976f1d4e0b, type: 3}
+  - {fileID: 1766356233206869, guid: 40321c93f34ae884fa60da04c419bb2a, type: 3}
+  - {fileID: 1931828952928969, guid: fc42dc4a2bf178640ace2f4490303cae, type: 3}
+  - {fileID: 1103962604619039, guid: 94bf19ad74a340141aae3b597f9994a3, type: 3}
+  - {fileID: 1498488790389481, guid: 36f8ce0ff52c9b848aabdff8b6c11328, type: 3}
+  - {fileID: 1541498883741121, guid: 24e39c7dd8f5c0f4e85d1d611e018097, type: 3}
+  - {fileID: 1065257867982988, guid: 40e82035519df6142b2e330804daf7c3, type: 3}
+  - {fileID: 9040863105932193201, guid: 8a86fb012367fd34d93fde2a3313f336, type: 3}
+  campaigns:
+  - {fileID: 11400000, guid: eb0db5280793f7d46befdc518740c99c, type: 2}
+  - {fileID: 11400000, guid: bbb8aee744dfe2a4190ed16b8c0234f0, type: 2}
+  equipsResourcePath: HPEquips/F4pii
+  quicksaveReady: 1

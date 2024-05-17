@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: e153921874218434d9f096833ed1343e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite
+    second: {fileID: 2100000, guid: b0516e5d44c6cb342ae0a7832f2fe37b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ai.png
+    second: {fileID: 2100000, guid: 46732489b664b19409fb45a7e4375f9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ai2.png
+    second: {fileID: 2100000, guid: e5a90dc99e0409c409ed1611a79b95b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_alt.png
+    second: {fileID: 2100000, guid: 8d33b6e1021c6664aa565a1fe7dbc493, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_aoa.png
+    second: {fileID: 2100000, guid: 2b752e84ee41a8b48a84a618177b810b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_aoa2.png
+    second: {fileID: 2100000, guid: 1fe267b8429466349b8ccac433744cfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_asi.png
+    second: {fileID: 2100000, guid: e7881ab0e4619aa4584e80d48f24ac95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_clock.png
+    second: {fileID: 2100000, guid: 70414ad57f5d44d43acda8672193fb40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_engines.png
+    second: {fileID: 2100000, guid: 55e01de4a9525cc45a1b9ef965098a64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_flaps.png
+    second: {fileID: 2100000, guid: f09f502f9d0fa9f4981b701421882693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_flight-indicator.png
+    second: {fileID: 2100000, guid: cd6ddc40062c0ab49891e999b9261d66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_gmeter.png
+    second: {fileID: 2100000, guid: d28c846ffa04f1245afa04a16305e0b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_hsi.png
+    second: {fileID: 2100000, guid: bd5a69f02492ca84d9d282078da245c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_interior.png
+    second: {fileID: 2100000, guid: 01f5fd5e3bf02e44a827fcedd454c65c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_jettison.png
+    second: {fileID: 2100000, guid: 53c761354de88364c8979a1766c9ebb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_ldg-controls.png
+    second: {fileID: 2100000, guid: cfab715749ce9c44199efe69bf656a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_map-back.png
+    second: {fileID: 2100000, guid: ad5cfebf3cbb6c6459ebaa106954b97f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_panel.png
+    second: {fileID: 2100000, guid: 311144a5b59274348a0612f98ee47de0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_radar.png
+    second: {fileID: 2100000, guid: 0b0adcde0bc4143408c8ee6f2f5647e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_radaralt.png
+    second: {fileID: 2100000, guid: a486d80b33278c44a890bda5fb3f95ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_radarcontrol.png
+    second: {fileID: 2100000, guid: e04ad03f8bb27ea41bf9d71a17cff068, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_seat.png
+    second: {fileID: 2100000, guid: 7e346ab9639743243b488a9f34b9dc8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png
+    second: {fileID: 2100000, guid: 17cbb8d2bd50e9c48892b0c9dcd6a967, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.002
+    second: {fileID: 2100000, guid: ac6e8cedf1d36d14d89081506755f783, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.003
+    second: {fileID: 2100000, guid: 33a03697c36cde941835ad9134fc9047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.004
+    second: {fileID: 2100000, guid: 9e314b72ba3642a44b2ecc25f77fd34c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.005
+    second: {fileID: 2100000, guid: 994e987379ae7ae4a82d4d034c10a447, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.007
+    second: {fileID: 2100000, guid: 344cd9ef3984971488cbdeb8b1ebbd05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.008
+    second: {fileID: 2100000, guid: 1d22679dc4d60be45b167a600247bb70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.009
+    second: {fileID: 2100000, guid: 228d10f34cd79e14786cace5c75e2219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.010
+    second: {fileID: 2100000, guid: 3c3316ac05867bd4c8efe7b9212de7b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.011
+    second: {fileID: 2100000, guid: 3636d0d05de2e1f44ae4f786ec251b13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.012
+    second: {fileID: 2100000, guid: b9a989103268afd48b868ace36dee30f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_texture.png.013
+    second: {fileID: 2100000, guid: f91dcb1234179724caf04382f0aaa9c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_vsi.png
+    second: {fileID: 2100000, guid: f6d61c992fbca3c41a521e238a806f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DefaultWhite_yoke.png
+    second: {fileID: 2100000, guid: 774533f1e8f044d41b171837a5fce4d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Transparent
+    second: {fileID: 2100000, guid: 32662b43c168b084fab317831a0e494a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: e568c094b0beb1e4ab82e6d131cc92f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cyan
+    second: {fileID: 2100000, guid: 5839e2b46d80b194d968ba8b468f2eed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 1dcf6e63e4581ef4495f7f687972d6cd, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AGM-84
+    second: {fileID: 2800000, guid: c7abefcf21433bd47a02a078bc049092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ai
+    second: {fileID: 2800000, guid: 67d5ccf4a05676b46b07b890e088b1a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ai2
+    second: {fileID: 2800000, guid: 388ebff1cd86bda4ba37d137dcecb7eb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: alt
+    second: {fileID: 2800000, guid: d54eb547b93adb54f85bbfa2e85a7863, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aoa
+    second: {fileID: 2800000, guid: f0f7efa961eb65b40aae079c88c12b05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aoa2
+    second: {fileID: 2800000, guid: 6e3e1119feb5fe14883d7ea537ebee34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: asi
+    second: {fileID: 2800000, guid: cbc1c58ee6f1e1c43be3516904769374, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: clock
+    second: {fileID: 2800000, guid: e5cc1da5dd21ff74db4c3a4ab1e871a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: engines
+    second: {fileID: 2800000, guid: b5f3d170ed500b84a9b5bf1a8ffb14d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: flaps
+    second: {fileID: 2800000, guid: 31b1ecf9473f0124595f1b3d74016e58, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: flight-indicator
+    second: {fileID: 2800000, guid: c9a35fbed0197fd4f8c8b866b5bd5a36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gmeter
+    second: {fileID: 2800000, guid: e7212929097dd3246a9e624d3d86e659, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hsi
+    second: {fileID: 2800000, guid: d7f741df56283a94bb8394662a2a1323, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: interior
+    second: {fileID: 2800000, guid: b4de51f006e482047ad0dbd6532e16f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jettison
+    second: {fileID: 2800000, guid: a6db1222c31c6874d8e3b56b1c4ed927, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ldg-controls
+    second: {fileID: 2800000, guid: a769985a9775d0641b0ad5549082521a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: map-back
+    second: {fileID: 2800000, guid: 3246f520d1631d249bde839d6c6276c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: panel
+    second: {fileID: 2800000, guid: 82e5c9102cf0bc84a91595bcbfe1e7b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: radar
+    second: {fileID: 2800000, guid: b010d27b73453bd478607aeafa9b4030, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: radaralt
+    second: {fileID: 2800000, guid: 37e89951c6b2e714499434130447af9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: radarcontrol
+    second: {fileID: 2800000, guid: 4c41243316b65cc4ba82e664b4dbe98b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: seat
+    second: {fileID: 2800000, guid: 38e96467540cbcf48a55b7b5681327ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: texture
+    second: {fileID: 2800000, guid: 3c7230e8c4e650d44a1b2330218c502f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vsi
+    second: {fileID: 2800000, guid: f1582cf5f66879344ba739c2e40b274d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: yoke
+    second: {fileID: 2800000, guid: 88282ccba32f55b4d8532f8c1a7c150d, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

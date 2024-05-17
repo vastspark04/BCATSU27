@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62a81fdd34308141847cf087780d2d8, type: 3}
+  m_Name: FA26B-SteamWorkshopScenarios
+  m_EditorClassIdentifier: 
+  campaignID: SteamWorkshopScenarios
+  campaignName: Steam Workshop Scenarios
+  readyToPlay: 1
+  demoAvailable: 0
+  isCustomScenarios: 1
+  isStandaloneScenarios: 1
+  isBuiltIn: 0
+  isSteamworksStandalone: 1
+  description: Play custom scenarios installed through the Steam Workshop.
+  campaignImage: {fileID: 2800000, guid: 177de5742e3c80141a2a432b7ab0bc0c, type: 3}
+  weaponsOnStart: []
+  scenariosOnStart: []
+  missions: []
+  trainingMissions: []
+  campaignLivery: {fileID: 0}
+  campaignLiveryOpFor: {fileID: 0}
+  perVehicleLiveries: []

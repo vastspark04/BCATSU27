@@ -1,0 +1,4 @@
+namespace UnityStandardAssets.ImageEffects
+{
+	
+}

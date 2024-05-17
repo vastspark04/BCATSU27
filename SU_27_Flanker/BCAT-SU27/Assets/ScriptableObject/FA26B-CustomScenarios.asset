@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62a81fdd34308141847cf087780d2d8, type: 3}
+  m_Name: FA26B-CustomScenarios
+  m_EditorClassIdentifier: 
+  campaignID: Custom Scenarios
+  campaignName: Custom Scenarios
+  readyToPlay: 1
+  demoAvailable: 0
+  isCustomScenarios: 1
+  isStandaloneScenarios: 1
+  isBuiltIn: 0
+  isSteamworksStandalone: 0
+  description: Play custom scenarios created in the VTEditor.
+  campaignImage: {fileID: 2800000, guid: 177de5742e3c80141a2a432b7ab0bc0c, type: 3}
+  weaponsOnStart: []
+  scenariosOnStart: []
+  missions:
+  - scenarioName: mission1
+    scenarioID: fa26-opDesertCobra
+    demoAvailable: 0
+    underConstruction: 0
+    isTraining: 0
+    description: 
+    baseBudget: 0
+    baseCompletedBudget: 0
+    totalBudget: 0
+    initialSpending: 0
+    inFlightSpending: 0
+    mapSceneName: afMtnsHills
+    environmentName: 
+    envOptions: []
+    envIdx: 0
+    scenarioImage: {fileID: 2800000, guid: 0162393fcaaafbd4fa7334f8d5bd055f, type: 3}
+    recommendedTraining: 
+    scenariosOnComplete: []
+    equipmentOnComplete: []
+    equipConfigurable: 0
+    forcedEquips: []
+    forcedFuel: 0
+    briefingNotes: []
+  trainingMissions: []
+  campaignLivery: {fileID: 0}
+  campaignLiveryOpFor: {fileID: 0}
+  perVehicleLiveries: []

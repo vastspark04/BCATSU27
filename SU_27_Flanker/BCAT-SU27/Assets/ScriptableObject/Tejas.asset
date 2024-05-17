@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a5f724ee95b6d4bac281dd9a3c1a84, type: 3}
+  m_Name: Tejas
+  m_EditorClassIdentifier: 
+  vehicleName: HAL Tejas
+  resourcePath: Vehicles/Tejas
+  readyToFly: 1
+  description: The HAL Tejas is an Indian, single engine, delta wing, light multirole
+    fighter designed by the Aeronautical Development Agency (ADA) in collaboration
+    with Aircraft Research and Design Centre (ARDC) of Hindustan Aeronautics Limited
+    (HAL) for the Indian Air Force and Indian Navy. It was developed from the Light
+    Combat Aircraft (LCA) programme, which began in the 1980s to replace India's
+    ageing MiG-21 fighters but later became part of a general fleet modernisation
+    programme
+  nickname: Tejas
+  vehicleImage: {fileID: 2800000, guid: 71d9068dae13ec44ab30e0eece8fa30b, type: 3}
+  vehiclePrefab: {fileID: 6803472960091855903, guid: 481d16b6fa8b35a4cbd546917b4a71e5, type: 3}
+  loadoutSpawnOffset: {x: 0, y: 2.65, z: -7.02}
+  playerSpawnOffset: {x: 0, y: 2.66, z: 0}
+  spawnPitch: 0
+  loadoutConfiguratorPrefab: {fileID: 1523651223817002, guid: 22283473fb55001418bfdeb76d60e626, type: 3}
+  uiOnlyConfiguratorPrefab: {fileID: 5452194177057080605, guid: 9e183b668f0780f4aaa213a155164448, type: 3}
+  hardpointCount: 9
+  maxSlots: 1
+  defaultSlots: 1
+  dlc: 0
+  dlcID: 0
+  dlcPrefabName: 
+  allEquipPrefabs:
+  - {fileID: 1194274915337925, guid: 83ded5cba1b310247a654fc410dc186b, type: 3}
+  - {fileID: 1717010563709773, guid: e13819e803619cf46b167db40a9a6549, type: 3}
+  - {fileID: 1049353534626602, guid: 21727c07d47d6cc4b8082d38123c52f7, type: 3}
+  - {fileID: 1170788074088650, guid: 80b2ca64cdc1f914fa0d9b1002e7c6d4, type: 3}
+  - {fileID: 1065257867982988, guid: 0665dd7187e12a84bb6a829eaabcf6a3, type: 3}
+  - {fileID: 1982705054838940, guid: 78d709e71fd1d3940a9beb93bddc0fb6, type: 3}
+  - {fileID: 1092646804117233, guid: 1cfd4a1ce86859640bb9d7920896cce3, type: 3}
+  - {fileID: 1744173126882458, guid: 999f83ad75d77b642ac408975afe6e54, type: 3}
+  - {fileID: 1628650025412031, guid: 0968376abe91b864da690021e2eae12b, type: 3}
+  - {fileID: 1635243908403360, guid: bbe96836dc802764dbd5e5fc66f4c569, type: 3}
+  - {fileID: 1719347516539316, guid: c815a459310c0d044ab22cc4f5e98ba8, type: 3}
+  - {fileID: 1312293294673102, guid: f220761a13fecb54982f3ff38c902d8b, type: 3}
+  - {fileID: 1851938698709317, guid: 3c0256b6125f87e4286b3e9705036ff8, type: 3}
+  - {fileID: 1609471672691783, guid: cc767514ec509b644a24ec1538e1b6df, type: 3}
+  - {fileID: 1736166785724625, guid: a95bb65f705dba84c9a335d4e1060cd7, type: 3}
+  - {fileID: 1040064831701940, guid: b1e6281d5e8125e44bf2b030a95babf1, type: 3}
+  - {fileID: 1172850694100183, guid: 89677a0e2fd956b47b9e1c64981e7f2f, type: 3}
+  - {fileID: 1529144101003075, guid: 78e422b561edd1a44be08259c0d0d948, type: 3}
+  - {fileID: 1937548658101806, guid: 6225c2ddd9366ee4e8043936b0e57b04, type: 3}
+  - {fileID: 1698636330184034, guid: ccf4f0b1c37642246a7ef512b70b798b, type: 3}
+  - {fileID: 1443461133985303, guid: 5b55fcfe378551149ba057c8866625ac, type: 3}
+  - {fileID: 1136373245740158, guid: 0c3ffbdddc81ffd4b9136dd727e30208, type: 3}
+  - {fileID: 1030240687333475, guid: a02398db82bcf92489578a8deceb5361, type: 3}
+  - {fileID: 1499249039372290, guid: a94affd206839f14b8b58b26c3a2f856, type: 3}
+  - {fileID: 1914602522786586, guid: 0b2248c1892bc7b4c94d0993d342684a, type: 3}
+  - {fileID: 1385043687213193, guid: 65841d6bf06d55843aefc175f27cf914, type: 3}
+  - {fileID: 1308613260679936, guid: 061ed66fa2eba164bbf50390962a1027, type: 3}
+  - {fileID: 1047843472856278, guid: 0bcb17bd1e1535a4888f97dda9848f1d, type: 3}
+  - {fileID: 1086147716487742, guid: 17989bd8471270b49926f8d39ede5675, type: 3}
+  - {fileID: 1000870896244739, guid: fa0052790e4469d4997950e3c0d45860, type: 3}
+  - {fileID: 1766356233206869, guid: b574ad190de44ff41a79e73f190f8f01, type: 3}
+  - {fileID: 1787991336573433, guid: 4237c6ff9fcb3f042b43c2da871cf7f8, type: 3}
+  - {fileID: 1872547106277201, guid: b535c56ea253d2c41ac962783feefce1, type: 3}
+  - {fileID: 1931828952928969, guid: e23160bf3d47d4948a47fbfaf627a491, type: 3}
+  - {fileID: 1103962604619039, guid: 15a36ddfc25a2b54e94f33d022b07dce, type: 3}
+  - {fileID: 1498488790389481, guid: f7d7328d28aecff44a1f78ec81cbe7a6, type: 3}
+  - {fileID: 1541498883741121, guid: fc94a328129261d48b4bf2370119fd78, type: 3}
+  - {fileID: 1044794688173977, guid: 98a2a4899e7944b43bb3ebc5294a9933, type: 3}
+  - {fileID: 1754844357641419, guid: e05ac35f67be2ad4a86376b4bd6b5a2d, type: 3}
+  - {fileID: 1420412109406772, guid: bb2c70a4f04811a46a8c2e37bb8d833c, type: 3}
+  - {fileID: 1080638938887228, guid: 5e796c4f3dee4614f8e7a09dcfb3a934, type: 3}
+  - {fileID: 1197431003935914, guid: 9cc72877163146943870df442391ef4e, type: 3}
+  - {fileID: 1309419853778920, guid: 11f64ba3acc97e74c950362682a8abf0, type: 3}
+  campaigns:
+  - {fileID: 11400000, guid: eb0db5280793f7d46befdc518740c99c, type: 2}
+  - {fileID: 11400000, guid: bbb8aee744dfe2a4190ed16b8c0234f0, type: 2}
+  equipsResourcePath: HPEquips/AFighter
+  quicksaveReady: 1

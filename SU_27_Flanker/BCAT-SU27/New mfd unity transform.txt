@@ -1,0 +1,26 @@
+UnityEditor.TransformWorldPlacementJSON:{"position":{"x":0.0,"y":0.009999999776482582,"z":0.5019999742507935},"rotation":{"x":0.5,"y":-0.4999999701976776,"z":-0.5,"w":-0.5},"scale":{"x":0.10100000351667404,"y":0.10100000351667404,"z":0.10100000351667404}}
+
+new mfd position
+Vector3(0.00149764551,0.0133817941,0.0176865943)
+
+new mfd rotation
+Vector3(0.0327976122,88.9379425,1.57258737)
+
+new mfd scale
+Vector3(0.242610455,1.6349951,1.63499522)
+
+mfd displayobject zpos -5
+buttonlabel zpos *2
+InputActiveDisplayObj zpos 5
+
+mfdpower
+Vector3(-1.48199999,-1.47599995,0.523000002)
+Vector3(359.871674,89.8621597,93.8077393)
+
+clearwaypointbutton
+Vector3(-1.48099995,1.42900002,0.273999989)
+Vector3(359.871674,89.8621597,93.8077316)
+
+brightness
+Vector3(1.45299995,-1.46300006,0.573000014)
+Vector3(359.871674,89.8621597,93.8077393)
