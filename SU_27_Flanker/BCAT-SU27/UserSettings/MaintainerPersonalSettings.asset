@@ -67,9 +67,9 @@ MonoBehaviour:
       m_SortedColumns: 0300000000000000
     hierarchyReferencesTreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_SelectedIDs: 01000000
+      m_LastClickedID: 1
+      m_ExpandedIDs: 0000000001000000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
